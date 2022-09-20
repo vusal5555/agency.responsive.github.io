@@ -1,0 +1,135 @@
+.services {
+  text-align: center;
+  padding: 15rem 0;
+
+  &--title {
+    font-size: 3.5rem;
+    margin-bottom: 4.5rem;
+    font-weight: 900;
+    color: hsl(236, 57%, 28%);
+
+    &::after {
+      content: "";
+      display: block;
+      width: 13%;
+      background-image: linear-gradient(hsl(335, 87%, 51%), hsl(39, 100%, 52%));
+      height: 5px;
+
+      margin: 0 auto;
+      margin-top: 2.5rem;
+    }
+  }
+
+  &--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+
+  &--service {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3.5rem 2rem;
+    padding-top: 6rem;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+    &-title {
+      font-size: 2.3rem;
+      margin-bottom: 1.5rem;
+      color: hsl(236, 57%, 28%);
+      font-weight: 900;
+    }
+
+    &-text {
+      font-size: 1.5rem;
+      margin-bottom: 2.5rem;
+      color: hsl(230, 41%, 25%);
+    }
+  }
+}
+
+.fa-tv {
+  font-size: 3.5rem;
+  margin-bottom: 3.5rem;
+
+  color: hsl(335, 87%, 51%);
+}
+
+@media only screen and (max-width: 1200px) {
+  .services {
+    &--container {
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &--title {
+      font-size: 3.5rem;
+      margin-bottom: 4.5rem;
+      font-weight: 900;
+      color: hsl(236, 57%, 28%);
+
+      &::after {
+        content: "";
+        display: block;
+        width: 30%;
+        background-image: linear-gradient(
+          hsl(335, 87%, 51%),
+          hsl(39, 100%, 52%)
+        );
+        height: 5px;
+
+        margin: 0 auto;
+        margin-top: 2.5rem;
+      }
+    }
+
+    &--service {
+      &-title {
+        font-size: 2.5rem;
+      }
+      &-text {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .services {
+    &--container {
+      width: 95%;
+      grid-template-columns: 1fr;
+    }
+
+    &--title {
+      font-size: 3.5rem;
+      margin-bottom: 4.5rem;
+      font-weight: 900;
+      color: hsl(236, 57%, 28%);
+
+      &::after {
+        content: "";
+        display: block;
+        width: 45%;
+        background-image: linear-gradient(
+          hsl(335, 87%, 51%),
+          hsl(39, 100%, 52%)
+        );
+        height: 5px;
+
+        margin: 0 auto;
+        margin-top: 2.5rem;
+      }
+    }
+
+    &--service {
+      &-text {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

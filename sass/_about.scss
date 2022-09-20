@@ -1,0 +1,148 @@
+.about {
+  &--container {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  &--img {
+    width: 100%;
+    animation: waveAnim 2s linear infinite alternate;
+  }
+
+  &--title {
+    font-size: 4rem;
+    color: hsl(236, 57%, 28%);
+    font-weight: 900;
+    margin-bottom: 3rem;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 40%;
+      background-image: linear-gradient(hsl(335, 87%, 51%), hsl(39, 100%, 52%));
+      height: 5px;
+      margin-top: 1.2rem;
+    }
+  }
+
+  &--text {
+    font-size: 1.6rem;
+    color: hsl(236, 57%, 28%);
+    margin-bottom: 3.5rem;
+  }
+
+  &--stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &--stat-1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: hsl(236, 57%, 28%);
+  }
+  &--stat-2 {
+    font-size: 1.5rem;
+
+    color: hsl(236, 57%, 28%);
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .about {
+    // margin-top: 5rem;
+    &--container {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    &--title {
+      font-size: 3rem;
+    }
+
+    &--stat-1 {
+      font-size: 2.5rem;
+    }
+
+    &--stat-2 {
+      font-size: 1.2rem;
+    }
+
+    &--stats {
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about {
+    &--container {
+      padding: 15rem 0;
+      width: 95%;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+
+    &--title {
+      font-size: 3rem;
+    }
+
+    &--stats {
+      width: 95%;
+      flex-direction: row;
+    }
+
+    &--stat-box {
+      width: 100%;
+      padding: 1.5rem;
+
+      box-shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
+      text-align: center;
+    }
+    &--text {
+      font-size: 1.9rem;
+    }
+
+    &--title {
+      &::after {
+        width: 20%;
+      }
+    }
+
+    &--stat-1 {
+      font-size: 3.5rem;
+    }
+
+    &--stat-2 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    // margin-top: 7rem;
+    &--stats {
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+
+    &--text {
+      font-size: 1.9rem;
+    }
+
+    &--title {
+      &::after {
+        width: 40%;
+      }
+    }
+  }
+}
