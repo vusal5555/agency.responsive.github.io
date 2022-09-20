@@ -150,7 +150,7 @@
 @media only screen and (max-width: 600px) {
   .header {
     margin-bottom: 0;
-    height: 100vh; }
+    height: 110vh; }
     .header--hero-container {
       grid-template-columns: 1fr;
       width: 95%; }
