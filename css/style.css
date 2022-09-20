@@ -99,7 +99,7 @@
   .header {
     margin-bottom: 0;
     padding-bottom: 10rem;
-    height: 110vh; }
+    height: 120vh; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
       width: 95%;
