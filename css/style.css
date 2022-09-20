@@ -123,6 +123,8 @@
         align-items: center;
         transition: all 0.5s;
         text-transform: uppercase; }
+      .header--navbar--brand {
+        font-size: 3rem; }
     .header--hero-container {
       margin: 8rem auto;
       margin-top: 8rem; }
@@ -134,7 +136,7 @@
   .fa-solid.fa-xmark {
     display: block;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer;
     position: absolute;
@@ -143,7 +145,7 @@
   .fa-solid.fa-bars {
     display: block;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; } }
 
@@ -175,6 +177,8 @@
         align-items: center;
         transition: all 0.5s;
         text-transform: uppercase; }
+      .header--navbar--brand {
+        font-size: 3rem; }
     .header--hero-container {
       margin: 8rem auto;
       margin-bottom: 0; }
@@ -183,7 +187,7 @@
   .fa-solid.fa-xmark {
     display: block;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer;
     position: absolute;
@@ -192,7 +196,7 @@
   .fa-solid.fa-bars {
     display: block;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; } }
 
