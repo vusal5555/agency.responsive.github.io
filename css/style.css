@@ -106,8 +106,7 @@
     .header--title {
       font-size: 3.5rem; }
     .header--navbar {
-      width: 95%;
-      padding-top: 5rem; }
+      width: 95%; }
       .header--navbar-nav {
         flex-direction: column;
         position: fixed;
@@ -126,7 +125,7 @@
         text-transform: uppercase; }
     .header--hero-container {
       margin: 8rem auto;
-      margin-top: 20rem; }
+      margin-top: 15rem; }
     .header--img-con {
       width: 100%;
       margin: 0 auto; }
