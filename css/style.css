@@ -98,7 +98,7 @@
 @media only screen and (max-width: 1200px) {
   .header {
     margin-bottom: 0;
-    height: 110vh; }
+    height: 115vh; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
       width: 95%;
@@ -106,7 +106,8 @@
     .header--title {
       font-size: 3.5rem; }
     .header--navbar {
-      width: 95%; }
+      width: 95%;
+      padding-top: 5rem; }
       .header--navbar-nav {
         flex-direction: column;
         position: fixed;
@@ -125,7 +126,7 @@
         text-transform: uppercase; }
     .header--hero-container {
       margin: 8rem auto;
-      margin-top: 15rem; }
+      margin-top: 20rem; }
     .header--img-con {
       width: 100%;
       margin: 0 auto; }
@@ -157,7 +158,8 @@
     .header--title {
       font-size: 3.5rem; }
     .header--navbar {
-      width: 95%; }
+      width: 95%;
+      padding-top: 2.5rem; }
       .header--navbar-nav {
         flex-direction: column;
         position: fixed;
