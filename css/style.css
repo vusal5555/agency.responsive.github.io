@@ -98,7 +98,6 @@
 @media only screen and (max-width: 1200px) {
   .header {
     margin-bottom: 0;
-    padding-bottom: 10rem;
     height: 115vh; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
@@ -125,7 +124,8 @@
         transition: all 0.5s;
         text-transform: uppercase; }
     .header--hero-container {
-      margin: 8rem auto; }
+      margin: 8rem auto;
+      margin-top: 15rem; }
     .header--img-con {
       width: 100%;
       margin: 0 auto; }
