@@ -87,8 +87,7 @@
 @media only screen and (max-width: 1400px) {
   .header {
     height: 100vh;
-    margin-bottom: 0;
-    overflow: visible; }
+    margin-bottom: 0; }
     .header--navbar {
       width: 95%; }
     .header--img-con {
@@ -99,7 +98,6 @@
 @media only screen and (max-width: 1200px) {
   .header {
     margin-bottom: 0;
-    overflow: visible;
     height: 120vh;
     clip-path: polygon(0 0, 100% 0, 100% 115vh, 0 100%); }
     .header--hero-container {
