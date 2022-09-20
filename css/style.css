@@ -1,8 +1,6 @@
 .header {
   background-image: linear-gradient(to right, #ef1f76, #1f2470);
-  height: 120vh;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 110vh, 0 100%);
+  height: 100vh;
   margin-bottom: 15rem; }
   .header--navbar {
     width: 60%;
@@ -98,8 +96,8 @@
 @media only screen and (max-width: 1200px) {
   .header {
     margin-bottom: 0;
-    height: 120vh;
-    clip-path: polygon(0 0, 100% 0, 100% 115vh, 0 100%); }
+    padding-bottom: 10rem;
+    height: 100vh; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
       width: 95%;
@@ -150,12 +148,10 @@
 @media only screen and (max-width: 600px) {
   .header {
     margin-bottom: 0;
-    height: 125vh;
-    clip-path: polygon(0 0, 100% 0, 100% 105vh, 0 100%); }
+    height: 125vh; }
     .header--hero-container {
       grid-template-columns: 1fr;
-      width: 95%;
-      overflow: visible; }
+      width: 95%; }
     .header--title {
       font-size: 3.5rem; }
     .header--navbar {
@@ -168,7 +164,7 @@
         top: -100vh;
         left: 0;
         text-align: center;
-        z-index: 10;
+        z-index: 100;
         overflow-y: auto;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
