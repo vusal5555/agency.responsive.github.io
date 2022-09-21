@@ -421,26 +421,28 @@ body {
   color: #ef1570; }
 
 @media only screen and (max-width: 1200px) {
-  .services--container {
-    width: 95%;
-    grid-template-columns: repeat(2, 1fr); }
-  .services--title {
-    font-size: 3.5rem;
-    margin-bottom: 4.5rem;
-    font-weight: 900;
-    color: #1f2470; }
-    .services--title::after {
-      content: "";
-      display: block;
-      width: 30%;
-      background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 5px;
-      margin: 0 auto;
-      margin-top: 2.5rem; }
-  .services--service-title {
-    font-size: 2.5rem; }
-  .services--service-text {
-    font-size: 1.8rem; } }
+  .services {
+    padding: 15rem 0; }
+    .services--container {
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr); }
+    .services--title {
+      font-size: 3.5rem;
+      margin-bottom: 4.5rem;
+      font-weight: 900;
+      color: #1f2470; }
+      .services--title::after {
+        content: "";
+        display: block;
+        width: 30%;
+        background-image: linear-gradient(#ef1570, #ffa90a);
+        height: 5px;
+        margin: 0 auto;
+        margin-top: 2.5rem; }
+    .services--service-title {
+      font-size: 2.5rem; }
+    .services--service-text {
+      font-size: 1.8rem; } }
 
 @media only screen and (max-width: 600px) {
   .services--container {
@@ -526,7 +528,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .feautures {
-    padding: 0; }
+    padding: 0rem 0; }
   .features--container {
     grid-template-columns: 1fr; }
   .features--features-box-1 {
