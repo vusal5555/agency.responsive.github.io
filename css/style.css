@@ -348,7 +348,7 @@ body {
   .about {
     margin-top: 0; }
     .about--container {
-      padding: 15rem 0;
+      padding: 6rem 0;
       padding-bottom: 0;
       width: 95%;
       grid-template-columns: 1fr;
@@ -432,7 +432,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .services {
-    padding: 15rem 0; }
+    padding: 6rem 0; }
     .services--container {
       width: 95%;
       grid-template-columns: repeat(2, 1fr); }
@@ -538,7 +538,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .feautures {
-    padding: 0rem 0; }
+    padding: 6rem 0; }
   .features--container {
     grid-template-columns: 1fr; }
   .features--features-box-1 {
@@ -709,20 +709,23 @@ body {
     width: 95%; } }
 
 @media only screen and (max-width: 1200px) {
-  .blogs--container {
-    grid-template-columns: 1fr;
-    width: 95%; }
-  .blogs--blog {
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem; }
-  .blogs--title {
-    font-size: 2rem; }
-  .blogs--text {
-    font-size: 1.8rem; }
-  .blogs--comment-stat {
-    font-size: 1.6rem; }
-  .blogs--date-stat {
-    font-size: 1.6rem; }
+  .blogs {
+    padding: 6rem 0;
+    padding-bottom: 15rem; }
+    .blogs--container {
+      grid-template-columns: 1fr;
+      width: 95%; }
+    .blogs--blog {
+      grid-template-columns: 1fr 1fr;
+      padding: 2rem; }
+    .blogs--title {
+      font-size: 2rem; }
+    .blogs--text {
+      font-size: 1.8rem; }
+    .blogs--comment-stat {
+      font-size: 1.6rem; }
+    .blogs--date-stat {
+      font-size: 1.6rem; }
   .fa-clock {
     font-size: 2rem; }
   .fa-comment {
