@@ -538,7 +538,8 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .feautures {
-    padding: 6rem 0; }
+    padding: 6rem 0;
+    padding-bottom: 2rem; }
   .features--container {
     grid-template-columns: 1fr; }
   .features--features-box-1 {
@@ -581,8 +582,7 @@ body {
   .features--features-box-1 {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    gap: 1.5rem; }
+    align-self: center; }
   .features--feature--img {
     width: 100%;
     margin: 0 auto;
