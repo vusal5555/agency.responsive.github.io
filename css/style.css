@@ -710,7 +710,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .blogs {
-    padding-top: 8rem;
+    padding-top: 5rem;
     padding-bottom: 15rem; }
     .blogs--container {
       grid-template-columns: 1fr;
