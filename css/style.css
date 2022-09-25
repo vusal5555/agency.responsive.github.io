@@ -710,7 +710,6 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .blogs {
-    padding-top: 5rem;
     padding-bottom: 15rem; }
     .blogs--container {
       grid-template-columns: 1fr;
@@ -734,22 +733,20 @@ body {
     font-size: 2rem; } }
 
 @media only screen and (max-width: 600px) {
-  .blogs {
-    padding-top: 6rem; }
-    .blogs--container {
-      grid-template-columns: 1fr;
-      width: 95%; }
-    .blogs--blog {
-      grid-template-columns: 1fr;
-      padding: 2rem; }
-    .blogs--title {
-      font-size: 2rem; }
-    .blogs--text {
-      font-size: 1.8rem; }
-    .blogs--comment-stat {
-      font-size: 1.6rem; }
-    .blogs--date-stat {
-      font-size: 1.6rem; }
+  .blogs--container {
+    grid-template-columns: 1fr;
+    width: 95%; }
+  .blogs--blog {
+    grid-template-columns: 1fr;
+    padding: 2rem; }
+  .blogs--title {
+    font-size: 2rem; }
+  .blogs--text {
+    font-size: 1.8rem; }
+  .blogs--comment-stat {
+    font-size: 1.6rem; }
+  .blogs--date-stat {
+    font-size: 1.6rem; }
   .fa-clock {
     font-size: 2rem; }
   .fa-comment {
