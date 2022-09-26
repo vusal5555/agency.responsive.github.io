@@ -539,7 +539,7 @@ body {
 @media only screen and (max-width: 1200px) {
   .feautures {
     padding: 6rem 0;
-    padding-bottom: 1.4rem; }
+    padding-bottom: 1.6rem; }
   .features--container {
     grid-template-columns: 1fr; }
   .features--features-box-1 {
