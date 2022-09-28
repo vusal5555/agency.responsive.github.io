@@ -738,6 +738,19 @@ body {
     .blogs--container {
       grid-template-columns: 1fr;
       width: 95%; }
+    .blogs--big-title {
+      font-size: 3.5rem;
+      margin-bottom: 4.5rem;
+      font-weight: 900;
+      color: #1f2470; }
+      .blogs--big-title::after {
+        content: "";
+        display: block;
+        width: 45%;
+        background-image: linear-gradient(#ef1570, #ffa90a);
+        height: 5px;
+        margin: 0 auto;
+        margin-top: 2.5rem; }
     .blogs--blog {
       grid-template-columns: 1fr;
       padding: 2rem; }
