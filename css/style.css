@@ -725,7 +725,7 @@ body {
       .blogs--big-title::after {
         content: "";
         display: block;
-        width: 45%;
+        width: 25%;
         background-image: linear-gradient(#ef1570, #ffa90a);
         height: 5px;
         margin: 0 auto;
