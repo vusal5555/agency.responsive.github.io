@@ -49,17 +49,20 @@
     width: 100%;
     animation: waveAnim 2s linear infinite alternate; }
   .header--upper-title {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     margin-bottom: 1.5rem;
-    color: #ffa90a; }
+    color: #ffa90a;
+    font-family: "Source Sans Pro", sans-serif; }
   .header--title {
     font-size: 5rem;
     color: #fff;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    font-family: "Source Sans Pro", sans-serif; }
   .header--text {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #fff;
-    margin-bottom: 1.6rem; }
+    margin-bottom: 1.6rem;
+    font-family: "Source Sans Pro", sans-serif; }
     .header--text span {
       display: block; }
 
@@ -84,16 +87,18 @@
   .header {
     clip-path: none; }
     .header--hero-container {
-      width: 95%;
+      width: 100%;
+      padding-inline: 1.5rem;
       gap: 4.5rem; }
     .header--title {
-      font-size: 3.5rem; }
+      font-size: 4.7rem; }
     .header--navbar {
       width: 95%; } }
 
 @media only screen and (max-width: 1400px) {
   .header {
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 5rem;
     margin-bottom: 0;
     clip-path: none; }
     .header--navbar {
@@ -103,23 +108,66 @@
     .header--img {
       width: 100%; } }
 
-@media only screen and (max-width: 914px) {
+@media only screen and (max-width: 1000px) {
+  .header--hero-container {
+    width: 90%; }
+  .header--navbar {
+    width: 85%; }
+    .header--navbar-nav {
+      flex-direction: column;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: -100vh;
+      left: 0;
+      text-align: center;
+      z-index: 10;
+      overflow-y: auto;
+      background-image: linear-gradient(#1f2470, #ef1f76);
+      padding: 3rem;
+      padding-top: 15rem;
+      align-items: center;
+      transition: all 0.5s;
+      text-transform: uppercase; }
+    .header--navbar--brand {
+      font-size: 3rem; }
+  .header .hidden {
+    top: 0; }
+  .header .fa-solid.fa-xmark {
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem; }
+  .header .fa-solid.fa-bars {
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem;
+    cursor: pointer; } }
+
+@media only screen and (max-width: 760px) {
   .header {
     margin-bottom: 0;
-    height: 100%;
+    height: 110%;
     padding-bottom: 5rem;
     clip-path: none; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
-      width: 95%;
-      gap: 2.5rem; }
+      width: 100%;
+      padding-inline: 1.5rem;
+      gap: 3.5rem; }
     .header--text {
       padding-bottom: 1.5rem; }
     .header--img-con {
       width: 100%;
       margin: 0 auto; }
     .header--title {
-      font-size: 3.5rem; }
+      font-size: 4.9rem;
+      display: block; }
     .header--navbar {
       width: 95%; }
       .header--navbar-nav {
@@ -163,13 +211,13 @@
 
 @media only screen and (max-width: 600px) {
   .header {
-    margin-bottom: 0;
-    height: 100%; }
+    margin-bottom: 0; }
     .header--hero-container {
       grid-template-columns: 1fr;
-      width: 95%; }
+      width: 100%;
+      padding-inline: 1.5rem; }
     .header--title {
-      font-size: 3.5rem; }
+      font-size: 4.9rem; }
     .header--navbar {
       width: 95%;
       padding-top: 2.5rem; }
