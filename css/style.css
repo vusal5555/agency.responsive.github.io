@@ -142,8 +142,9 @@
     .header--upper-title {
       font-family: "Source Sans Pro", sans-serif !important; }
     .header--title {
-      font-size: 4.9rem;
+      font-size: 4.7rem;
       display: block;
+      width: 90%;
       font-family: "Source Sans Pro", sans-serif !important; }
     .header .hidden {
       top: 0; }
@@ -182,8 +183,9 @@
     .header--upper-title {
       font-family: "Source Sans Pro", sans-serif !important; }
     .header--title {
-      font-size: 4.9rem;
+      font-size: 4.7rem;
       display: block;
+      width: 90%;
       font-family: "Source Sans Pro", sans-serif !important; }
     .header--navbar {
       width: 95%; }
@@ -236,7 +238,8 @@
     .header--upper-title {
       font-family: "Source Sans Pro", sans-serif !important; }
     .header--title {
-      font-size: 4.9rem;
+      font-size: 4.7rem;
+      width: 90%;
       font-family: "Source Sans Pro", sans-serif !important; }
     .header--navbar {
       width: 95%;
