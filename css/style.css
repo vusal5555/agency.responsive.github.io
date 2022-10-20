@@ -6,6 +6,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   height: 100vh;
   line-height: 1.25;
+  font-family: "Source Sans Pro" !important;
   margin-bottom: 15rem; }
   .header--navbar {
     width: 60%;
