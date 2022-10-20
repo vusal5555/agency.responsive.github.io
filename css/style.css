@@ -109,13 +109,13 @@
 
 @media only screen and (max-width: 1024px) {
   .header {
-    line-height: 1.1; }
+    line-height: 1.15; }
     .header--hero-container {
       width: 92%; } }
 
 @media only screen and (max-width: 1000px) {
   .header {
-    line-height: 1.1; }
+    line-height: 1.15; }
     .header--hero-container {
       width: 92%; }
     .header--navbar {
@@ -162,7 +162,7 @@
 
 @media only screen and (max-width: 760px) {
   .header {
-    line-height: 1.1;
+    line-height: 1.15;
     margin-bottom: 0;
     height: 110%;
     padding-bottom: 5rem;
@@ -224,7 +224,7 @@
 
 @media only screen and (max-width: 600px) {
   .header {
-    line-height: 1.1;
+    line-height: 1.15;
     margin-bottom: 0; }
     .header--hero-container {
       grid-template-columns: 1fr;
