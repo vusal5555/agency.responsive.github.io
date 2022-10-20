@@ -141,12 +141,12 @@
       .header--navbar--brand {
         font-size: 3rem; }
     .header--upper-title {
-      font-family: "Source Sans Pro", sans-serif !important; }
+      font-family: "Source Sans Pro" !important; }
     .header--title {
       font-size: 4.4rem;
       display: block;
       width: 90%;
-      font-family: "Source Sans Pro", sans-serif !important; }
+      font-family: "Source Sans Pro" !important; }
     .header .hidden {
       top: 0; }
     .header .fa-solid.fa-xmark {
@@ -183,12 +183,12 @@
       width: 100%;
       margin: 0 auto; }
     .header--upper-title {
-      font-family: "Source Sans Pro", sans-serif !important; }
+      font-family: "Source Sans Pro" !important; }
     .header--title {
       font-size: 4.4rem;
       display: block;
       width: 90%;
-      font-family: "Source Sans Pro", sans-serif !important; }
+      font-family: "Source Sans Pro" !important; }
     .header--navbar {
       width: 95%; }
       .header--navbar-nav {
@@ -239,11 +239,11 @@
       width: 100%;
       padding-inline: 1.5rem; }
     .header--upper-title {
-      font-family: "Source Sans Pro", sans-serif !important; }
+      font-family: "Source Sans Pro" !important; }
     .header--title {
       font-size: 4.4rem;
       width: 90%;
-      font-family: "Source Sans Pro", sans-serif !important; }
+      font-family: "Source Sans Pro" !important; }
     .header--navbar {
       width: 95%;
       padding-top: 2.5rem; }
