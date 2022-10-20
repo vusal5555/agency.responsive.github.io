@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   height: 100vh;
+  line-height: 1.25;
   margin-bottom: 15rem; }
   .header--navbar {
     width: 60%;
@@ -54,7 +55,7 @@
     color: #ffa90a;
     font-family: "Source Sans Pro", sans-serif; }
   .header--title {
-    font-size: 5rem;
+    font-size: 5.4rem;
     color: #fff;
     margin-bottom: 1.5rem;
     font-family: "Source Sans Pro", sans-serif; }
@@ -109,60 +110,56 @@
       width: 100%; } }
 
 @media only screen and (max-width: 1024px) {
-  .header {
-    line-height: 1.35; }
-    .header--hero-container {
-      width: 92%; } }
+  .header--hero-container {
+    width: 92%; } }
 
 @media only screen and (max-width: 1000px) {
-  .header {
-    line-height: 1.35; }
-    .header--hero-container {
-      width: 92%; }
-    .header--navbar {
-      width: 85%; }
-      .header--navbar-nav {
-        flex-direction: column;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: -100vh;
-        left: 0;
-        text-align: center;
-        z-index: 10;
-        overflow-y: auto;
-        background-image: linear-gradient(#1f2470, #ef1f76);
-        padding: 3rem;
-        padding-top: 15rem;
-        align-items: center;
-        transition: all 0.5s;
-        text-transform: uppercase; }
-      .header--navbar--brand {
-        font-size: 3rem; }
-    .header--upper-title {
-      font-family: "Source Sans Pro", sans-serif !important; }
-    .header--title {
-      font-size: 4.4rem;
-      display: block;
-      width: 90%;
-      font-family: "Source Sans Pro", sans-serif !important; }
-    .header .hidden {
-      top: 0; }
-    .header .fa-solid.fa-xmark {
-      display: block;
-      color: #fff;
-      font-size: 2.5rem;
-      margin: 1rem;
-      cursor: pointer;
-      position: absolute;
-      top: 1.5rem;
-      right: 1.5rem; }
-    .header .fa-solid.fa-bars {
-      display: block;
-      color: #fff;
-      font-size: 2.5rem;
-      margin: 1rem;
-      cursor: pointer; } }
+  .header--hero-container {
+    width: 92%; }
+  .header--navbar {
+    width: 85%; }
+    .header--navbar-nav {
+      flex-direction: column;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: -100vh;
+      left: 0;
+      text-align: center;
+      z-index: 10;
+      overflow-y: auto;
+      background-image: linear-gradient(#1f2470, #ef1f76);
+      padding: 3rem;
+      padding-top: 15rem;
+      align-items: center;
+      transition: all 0.5s;
+      text-transform: uppercase; }
+    .header--navbar--brand {
+      font-size: 3rem; }
+  .header--upper-title {
+    font-family: "Source Sans Pro", sans-serif !important; }
+  .header--title {
+    font-size: 4.4rem;
+    display: block;
+    width: 90%;
+    font-family: "Source Sans Pro", sans-serif !important; }
+  .header .hidden {
+    top: 0; }
+  .header .fa-solid.fa-xmark {
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem; }
+  .header .fa-solid.fa-bars {
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem;
+    cursor: pointer; } }
 
 @media only screen and (max-width: 760px) {
   .header {
