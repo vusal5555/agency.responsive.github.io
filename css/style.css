@@ -110,56 +110,60 @@
       width: 100%; } }
 
 @media only screen and (max-width: 1024px) {
-  .header--hero-container {
-    width: 92%; } }
+  .header {
+    line-height: 1.3; }
+    .header--hero-container {
+      width: 92%; } }
 
 @media only screen and (max-width: 1000px) {
-  .header--hero-container {
-    width: 92%; }
-  .header--navbar {
-    width: 85%; }
-    .header--navbar-nav {
-      flex-direction: column;
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      top: -100vh;
-      left: 0;
-      text-align: center;
-      z-index: 10;
-      overflow-y: auto;
-      background-image: linear-gradient(#1f2470, #ef1f76);
-      padding: 3rem;
-      padding-top: 15rem;
-      align-items: center;
-      transition: all 0.5s;
-      text-transform: uppercase; }
-    .header--navbar--brand {
-      font-size: 3rem; }
-  .header--upper-title {
-    font-family: "Source Sans Pro", sans-serif !important; }
-  .header--title {
-    font-size: 4.4rem;
-    display: block;
-    width: 90%;
-    font-family: "Source Sans Pro", sans-serif !important; }
-  .header .hidden {
-    top: 0; }
-  .header .fa-solid.fa-xmark {
-    display: block;
-    color: #fff;
-    font-size: 2.5rem;
-    margin: 1rem;
-    cursor: pointer;
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem; }
-  .header .fa-solid.fa-bars {
-    display: block;
-    color: #fff;
-    font-size: 2.5rem;
-    margin: 1rem;
-    cursor: pointer; } }
+  .header {
+    line-height: 1.3; }
+    .header--hero-container {
+      width: 92%; }
+    .header--navbar {
+      width: 85%; }
+      .header--navbar-nav {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: -100vh;
+        left: 0;
+        text-align: center;
+        z-index: 10;
+        overflow-y: auto;
+        background-image: linear-gradient(#1f2470, #ef1f76);
+        padding: 3rem;
+        padding-top: 15rem;
+        align-items: center;
+        transition: all 0.5s;
+        text-transform: uppercase; }
+      .header--navbar--brand {
+        font-size: 3rem; }
+    .header--upper-title {
+      font-family: "Source Sans Pro", sans-serif !important; }
+    .header--title {
+      font-size: 4.4rem;
+      display: block;
+      width: 90%;
+      font-family: "Source Sans Pro", sans-serif !important; }
+    .header .hidden {
+      top: 0; }
+    .header .fa-solid.fa-xmark {
+      display: block;
+      color: #fff;
+      font-size: 2.5rem;
+      margin: 1rem;
+      cursor: pointer;
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem; }
+    .header .fa-solid.fa-bars {
+      display: block;
+      color: #fff;
+      font-size: 2.5rem;
+      margin: 1rem;
+      cursor: pointer; } }
 
 @media only screen and (max-width: 760px) {
   .header {
