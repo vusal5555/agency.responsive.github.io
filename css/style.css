@@ -84,15 +84,15 @@
 
 @media only screen and (max-width: 1600px) {
   .header {
-    clip-path: none; }
+    clip-path: polygon(0 0, 100% 0, 100% 120vh, 0 100%); }
     .header--hero-container {
-      width: 100%;
+      width: 80%;
       padding-inline: 1.5rem;
       gap: 4.5rem; }
     .header--title {
       font-size: 4.7rem; }
     .header--navbar {
-      width: 95%; } }
+      width: 77.8%; } }
 
 @media only screen and (max-width: 1400px) {
   .header {
@@ -100,8 +100,12 @@
     padding-bottom: 5rem;
     margin-bottom: 0;
     clip-path: none; }
+    .header--hero-container {
+      width: 80%;
+      padding-inline: 1.5rem;
+      gap: 4.5rem; }
     .header--navbar {
-      width: 95%; }
+      width: 77%; }
     .header--img-con {
       width: 100%; }
     .header--img {
@@ -119,7 +123,7 @@
     .header--hero-container {
       width: 92%; }
     .header--navbar {
-      width: 85%; }
+      width: 88%; }
       .header--navbar-nav {
         flex-direction: column;
         position: fixed;
@@ -389,19 +393,24 @@ body {
     font-size: 1.5rem;
     color: #1f2470; }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1600px) {
   .about--container {
-    width: 95%;
+    width: 80%;
     margin: 0 auto; }
   .about--title {
     font-size: 3rem; }
   .about--stat-1 {
-    font-size: 2.5rem; }
+    font-size: 3.5rem; }
   .about--stat-2 {
     font-size: 1.2rem; }
   .about--stats {
-    flex-direction: column;
-    gap: 2.5rem; } }
+    flex-direction: row;
+    gap: 2.5rem; }
+  .about--stat-box {
+    width: 100%;
+    padding: 1.5rem;
+    box-shadow: 0 10px 60px 10px rgba(31, 66, 137, 0.1);
+    text-align: center; } }
 
 @media only screen and (max-width: 1400px) {
   .about {
@@ -489,9 +498,9 @@ body {
   margin-bottom: 3.5rem;
   color: #ef1570; }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1600px) {
   .services--container {
-    width: 95%; } }
+    width: 80%; } }
 
 @media only screen and (max-width: 1200px) {
   .services {
@@ -592,9 +601,9 @@ body {
   transform: translateY(-1.5rem);
   color: #fff; }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1600px) {
   .features--container {
-    width: 95%;
+    width: 80%;
     margin: 0 auto; }
   .fa-lightbulb {
     transform: translateY(0); } }
@@ -767,9 +776,9 @@ body {
   font-size: 1.5rem;
   color: #ef1570; }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1600px) {
   .blogs--container {
-    width: 95%; } }
+    width: 80%; } }
 
 @media only screen and (max-width: 1200px) {
   .blogs {
