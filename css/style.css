@@ -85,15 +85,20 @@
 @media only screen and (max-width: 1700px) {
   .header {
     height: 120vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%); }
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    padding-bottom: 5rem; }
     .header--hero-container {
-      width: 70%;
+      width: 85%;
       padding-inline: 1.5rem;
       gap: 4.5rem; }
     .header--title {
       font-size: 4.7rem; }
     .header--navbar {
-      width: 77.8%; } }
+      width: 83%; } }
+
+@media only screen and (max-width: 1600px) {
+  .header {
+    padding-bottom: 5rem; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
@@ -404,7 +409,7 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .about--container {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     padding-inline: 1.5rem; }
   .about--title {
@@ -518,7 +523,7 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .services--container {
-    width: 70%;
+    width: 85%;
     padding-inline: 1.5rem; }
   .services--title {
     font-size: 4.5rem; }
@@ -638,7 +643,7 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .features--container {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     padding-inline: 1.5rem; }
   .features--title {
@@ -795,7 +800,7 @@ body {
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 3rem;
-    border-radius: 1.2rem; }
+    border-radius: 1rem; }
   .blogs--title {
     font-size: 2rem;
     line-height: 1.2;
@@ -842,7 +847,7 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .blogs--container {
-    width: 70%;
+    width: 85%;
     padding-inline: 1.5rem;
     gap: 3rem; }
   .blogs--big-title {
@@ -993,7 +998,7 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .footer--container {
-    width: 70%; }
+    width: 85%; }
   .footer--text {
     font-size: 2rem; }
   .footer--link {
