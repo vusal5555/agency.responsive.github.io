@@ -365,7 +365,7 @@ body {
     width: 100%;
     animation: waveAnim 2s linear infinite alternate; }
   .about--title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #1f2470;
     font-weight: 900;
     margin-bottom: 3rem; }
@@ -374,24 +374,32 @@ body {
       display: block;
       width: 40%;
       background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 5px;
-      margin-top: 1.2rem; }
+      height: 7px;
+      margin-top: 1.2rem;
+      border-radius: 1rem; }
   .about--text {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #1f2470;
     margin-bottom: 3.5rem; }
   .about--stats {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
-    margin: 0 auto; }
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    gap: 2.5rem; }
+  .about--stat-box {
+    width: 100%;
+    padding: 1.5rem;
+    box-shadow: 0 10px 60px 20px rgba(31, 66, 137, 0.1);
+    text-align: center; }
   .about--stat-1 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-weight: 900;
     color: #1f2470; }
   .about--stat-2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #1f2470; }
 
 @media only screen and (max-width: 1700px) {
@@ -464,7 +472,7 @@ body {
   text-align: center;
   padding: 6rem 0; }
   .services--title {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin-bottom: 4.5rem;
     font-weight: 900;
     color: #1f2470; }
@@ -473,9 +481,10 @@ body {
       display: block;
       width: 13%;
       background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 5px;
+      height: 7px;
       margin: 0 auto;
-      margin-top: 2.5rem; }
+      margin-top: 2.5rem;
+      border-radius: 1rem; }
   .services--container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -491,12 +500,12 @@ body {
     .services--service:hover {
       transform: translateY(-5px); }
     .services--service-title {
-      font-size: 2.3rem;
+      font-size: 2.5rem;
       margin-bottom: 1.5rem;
       color: #1f2470;
       font-weight: 900; }
     .services--service-text {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       margin-bottom: 2.5rem;
       color: #262e5a; }
 
@@ -576,7 +585,7 @@ body {
     gap: 4.5rem; }
   .features--title {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin-bottom: 4.5rem;
     font-weight: 900;
     color: #1f2470; }
@@ -585,11 +594,13 @@ body {
       display: block;
       width: 10%;
       background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 5px;
+      height: 7px;
       margin: 0 auto;
-      margin-top: 2.5rem; }
+      margin-top: 2.5rem;
+      border-radius: 1rem; }
   .features--feature--img {
-    width: 100%; }
+    width: 100%;
+    animation: waveAnim 2s linear infinite alternate; }
   .features--features-box-1 {
     display: flex;
     flex-direction: column;
@@ -615,6 +626,12 @@ body {
   border-radius: 50%;
   transform: translateY(-1.5rem);
   color: #fff; }
+
+@keyframes waveAnim {
+  0% {
+    transform: translate(0, 0) rotate(0); }
+  100% {
+    transform: translate(2px, 2px) rotate(1deg); } }
 
 @media only screen and (max-width: 1700px) {
   .features--container {
@@ -645,7 +662,8 @@ body {
   .features--container {
     grid-template-columns: 1fr;
     width: 85%;
-    padding-inline: 1.5rem; }
+    padding-inline: 1.5rem;
+    gap: 1.5rem; }
   .features--features-box-1 {
     display: flex;
     flex-direction: row;
@@ -741,7 +759,7 @@ body {
     gap: 3rem; }
   .blogs--big-title {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: #1f2470;
     margin-bottom: 4.5rem;
     font-weight: 900; }
@@ -750,9 +768,10 @@ body {
       display: block;
       width: 10%;
       background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 5px;
+      height: 7px;
       margin: 0 auto;
-      margin-top: 2.5rem; }
+      margin-top: 2.5rem;
+      border-radius: 1rem; }
   .blogs--banner {
     border-radius: 1rem;
     overflow: hidden; }
@@ -760,7 +779,8 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    display: block; }
     .blogs--img:hover, .blogs--img:focus {
       transform: scale(1.1); }
   .blogs--blog {
@@ -777,7 +797,7 @@ body {
     margin-bottom: 1.5rem;
     color: #1f2470; }
   .blogs--text {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
     color: #1f2470; }
   .blogs--social-con {
