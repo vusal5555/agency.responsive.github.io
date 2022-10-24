@@ -296,7 +296,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  overflow: auto; }
   @media only screen and (max-width: 900px) {
     html {
       font-size: 55%; } }
