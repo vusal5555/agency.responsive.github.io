@@ -291,8 +291,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
-  overflow: scroll; }
+  font-size: 62.5%; }
   @media only screen and (max-width: 900px) {
     html {
       font-size: 55%; } }
@@ -440,7 +439,7 @@ body {
     .about--container {
       padding: 6rem 0;
       padding-bottom: 0;
-      width: 85%;
+      width: 90%;
       grid-template-columns: 1fr;
       margin: 0 auto;
       padding-inline: 1.5rem; }
@@ -535,7 +534,7 @@ body {
   .services {
     padding: 6rem 0; }
     .services--container {
-      width: 85%;
+      width: 90%;
       padding-inline: 1.5rem;
       grid-template-columns: repeat(2, 1fr); }
     .services--title {
@@ -607,7 +606,7 @@ body {
       margin-top: 2.5rem;
       border-radius: 1rem; }
   .features--feature--img {
-    width: 100%; }
+    width: 105%; }
   .features--features-box-1 {
     display: flex;
     flex-direction: column;
@@ -657,7 +656,7 @@ body {
     max-width: max-content;
     height: auto; }
   .features--feature--img {
-    width: 100%;
+    width: 110%;
     margin: 0 auto; }
   .fa-lightbulb {
     transform: translateY(3rem); } }
@@ -668,7 +667,7 @@ body {
     padding-bottom: 1.6rem; }
   .features--container {
     grid-template-columns: 1fr;
-    width: 85%;
+    width: 90%;
     padding-inline: 1.5rem;
     gap: 1.5rem; }
   .features--features-box-1 {
@@ -680,7 +679,7 @@ body {
     width: 60%;
     margin: 0 auto; }
   .features--feature--img {
-    width: 100%;
+    width: 105%;
     margin: 0 auto;
     text-align: center; }
   .features--title {
@@ -794,7 +793,7 @@ body {
       transform: scale(1.1); }
   .blogs--blog {
     display: grid;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 0.786fr 1fr;
     gap: 2rem;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -813,7 +812,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    list-style: none; }
+    list-style: none;
+    padding-bottom: 0.75rem; }
   .blogs--date {
     margin-right: auto;
     display: flex;
@@ -833,15 +833,15 @@ body {
       color: #1f2470; }
 
 .fa-clock {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #ef1570; }
 
 .fa-comment {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #ef1570; }
 
 .fa-share-nodes {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #ef1570; }
 
 @media only screen and (max-width: 1700px) {
@@ -857,7 +857,7 @@ body {
     padding-bottom: 15rem; }
     .blogs--container {
       grid-template-columns: 1fr;
-      width: 85%;
+      width: 90%;
       padding-inline: 1.5rem;
       gap: 3rem; }
     .blogs--blog {
@@ -1007,7 +1007,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .footer--container {
-    width: 95%; }
+    width: 90%; }
   .footer--text {
     font-size: 2rem; }
   .footer--link {
