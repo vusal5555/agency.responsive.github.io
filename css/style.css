@@ -609,7 +609,8 @@ body {
       margin-top: 2.5rem;
       border-radius: 1rem; }
   .features--feature--img {
-    width: 105%; }
+    width: 105%;
+    animation: waveAnim 2s linear infinite alternate; }
   .features--features-box-1 {
     display: flex;
     flex-direction: column;
