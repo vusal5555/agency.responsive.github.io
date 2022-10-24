@@ -77,24 +77,15 @@
 .fa-solid.fa-bars {
   display: none; }
 
-@media only screen and (max-width: 1900px) {
-  .header {
-    height: 120vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%); } }
-
 @media only screen and (max-width: 1700px) {
-  .header {
-    height: 120vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
-    padding-bottom: 5rem; }
-    .header--hero-container {
-      width: 85%;
-      padding-inline: 1.5rem;
-      gap: 4.5rem; }
-    .header--title {
-      font-size: 4.7rem; }
-    .header--navbar {
-      width: 83%; } }
+  .header--hero-container {
+    width: 85%;
+    padding-inline: 1.5rem;
+    gap: 4.5rem; }
+  .header--title {
+    font-size: 4.7rem; }
+  .header--navbar {
+    width: 83%; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
