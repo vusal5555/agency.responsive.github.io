@@ -292,6 +292,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 1700px) {
+    html {
+      overflow: scroll; } }
   @media only screen and (max-width: 900px) {
     html {
       font-size: 55%; } }
@@ -312,10 +315,6 @@ body {
 ::-webkit-scrollbar-thumb {
   background: gray;
   z-index: 1000; }
-
-@media only screen and (max-width: 1700px) {
-  html {
-    overflow: scroll; } }
 
 .btn {
   border: none;
