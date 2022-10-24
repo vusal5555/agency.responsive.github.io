@@ -398,7 +398,7 @@ body {
   .about--stat-box {
     width: 100%;
     padding: 1.5rem;
-    box-shadow: 0 10px 60px 20px rgba(31, 66, 137, 0.1);
+    box-shadow: 0 5px 20px 5px rgba(31, 66, 137, 0.1);
     text-align: center; }
   .about--stat-1 {
     font-size: 3.8rem;
