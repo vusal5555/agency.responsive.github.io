@@ -313,6 +313,10 @@ body {
   background: gray;
   z-index: 1000; }
 
+@media only screen and (max-width: 1700px) {
+  html {
+    overflow: scroll; } }
+
 .btn {
   border: none;
   outline: none;
