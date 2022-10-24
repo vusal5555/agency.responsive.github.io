@@ -297,7 +297,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  overflow: auto; }
+  overflow: scroll; }
   @media only screen and (max-width: 900px) {
     html {
       font-size: 55%; } }
@@ -420,7 +420,7 @@ body {
   .about--stat-1 {
     font-size: 3.5rem; }
   .about--stat-2 {
-    font-size: 1.8rem; }
+    font-size: 1.5rem; }
   .about--stats {
     flex-direction: row;
     gap: 2.5rem; }
