@@ -530,6 +530,8 @@ body {
     padding-inline: 1.5rem; }
   .services--title {
     font-size: 4.5rem; }
+    .services--title::after {
+      width: 15%; }
   .services--service-title {
     font-size: 2.5rem; }
   .services--service-text {
@@ -652,6 +654,8 @@ body {
     padding-inline: 1.5rem; }
   .features--title {
     font-size: 4.5rem; }
+    .features--title::after {
+      width: 15%; }
   .features--feature--title {
     font-size: 2.5rem; }
   .features--feature--text {
@@ -857,8 +861,10 @@ body {
     gap: 3rem; }
   .blogs--big-title {
     font-size: 4.5rem; }
+    .blogs--big-title::after {
+      width: 15%; }
   .blogs--blog {
-    grid-template-columns: 0.85fr 1fr; } }
+    grid-template-columns: 0.75fr 1fr; } }
 
 @media only screen and (max-width: 1200px) {
   .blogs {
