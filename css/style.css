@@ -653,7 +653,7 @@ body {
     margin: 0 auto;
     padding-inline: 1.5rem; }
   .features--title {
-    font-size: 4.5rem; }
+    font-size: 5rem; }
     .features--title::after {
       width: 13%; }
   .features--feature--title {
@@ -862,7 +862,7 @@ body {
   .blogs--big-title {
     font-size: 4.5rem; }
     .blogs--big-title::after {
-      width: 20%; }
+      width: 17.5%; }
   .blogs--blog {
     grid-template-columns: 0.75fr 1fr; } }
 
