@@ -77,6 +77,12 @@
 .fa-solid.fa-bars {
   display: none; }
 
+@media only screen and (max-width: 1900px) {
+  .header {
+    height: 120vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    padding-bottom: 5rem; } }
+
 @media only screen and (max-width: 1700px) {
   .header {
     height: 120vh;
@@ -86,8 +92,6 @@
       width: 85%;
       padding-inline: 1.5rem;
       gap: 4.5rem; }
-    .header--title {
-      font-size: 4.7rem; }
     .header--navbar {
       width: 83%; } }
 
@@ -852,7 +856,9 @@ body {
     padding-inline: 1.5rem;
     gap: 3rem; }
   .blogs--big-title {
-    font-size: 4.5rem; } }
+    font-size: 4.5rem; }
+  .blogs--blog {
+    grid-template-columns: 0.788fr 1fr; } }
 
 @media only screen and (max-width: 1200px) {
   .blogs {
