@@ -531,7 +531,7 @@ body {
   .services--title {
     font-size: 4.5rem; }
     .services--title::after {
-      width: 15%; }
+      width: 20%; }
   .services--service-title {
     font-size: 2.5rem; }
   .services--service-text {
@@ -655,7 +655,7 @@ body {
   .features--title {
     font-size: 4.5rem; }
     .features--title::after {
-      width: 15%; }
+      width: 10%; }
   .features--feature--title {
     font-size: 2.5rem; }
   .features--feature--text {
@@ -666,7 +666,7 @@ body {
     max-width: max-content;
     height: auto; }
   .features--feature--img {
-    width: 110%;
+    width: 105%;
     margin: 0 auto; }
   .fa-lightbulb {
     transform: translateY(3rem); } }
@@ -862,7 +862,7 @@ body {
   .blogs--big-title {
     font-size: 4.5rem; }
     .blogs--big-title::after {
-      width: 15%; }
+      width: 20%; }
   .blogs--blog {
     grid-template-columns: 0.75fr 1fr; } }
 
