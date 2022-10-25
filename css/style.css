@@ -294,8 +294,7 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 1700px) {
     html {
-      overflow: scroll;
-      height: 110%; } }
+      overflow: auto; } }
   @media only screen and (max-width: 900px) {
     html {
       font-size: 55%; } }
@@ -855,9 +854,7 @@ body {
     padding-inline: 1.5rem;
     gap: 3rem; }
   .blogs--big-title {
-    font-size: 4.5rem; }
-  .blogs--blog {
-    grid-template-columns: 0.44fr 1fr; } }
+    font-size: 4.5rem; } }
 
 @media only screen and (max-width: 1200px) {
   .blogs {
