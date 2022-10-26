@@ -304,8 +304,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   line-height: 1.4;
-  overflow-y: scroll;
-  background-color: #e6e6e6; }
+  overflow-y: scroll; }
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -382,9 +381,9 @@ body {
       content: "";
       display: block;
       width: 40%;
-      background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 7px;
-      margin-top: 1.2rem;
+      background-image: linear-gradient(90deg, #ef1570, #fea858);
+      height: 6px;
+      margin-top: 1.1rem;
       border-radius: 1rem; }
   .about--text {
     font-size: 2rem;
@@ -490,11 +489,11 @@ body {
     .services--title::after {
       content: "";
       display: block;
-      width: 13%;
-      background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 7px;
+      width: 13.5%;
+      background-image: linear-gradient(90deg, #ef1570, #fea858);
+      height: 6px;
       margin: 0 auto;
-      margin-top: 2.5rem;
+      margin-top: 1.1rem;
       border-radius: 1rem; }
   .services--container {
     display: grid;
@@ -608,10 +607,10 @@ body {
       content: "";
       display: block;
       width: 10%;
-      background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 7px;
+      background-image: linear-gradient(90deg, #ef1570, #fea858);
+      height: 6px;
       margin: 0 auto;
-      margin-top: 2.5rem;
+      margin-top: 1.1rem;
       border-radius: 1rem; }
   .features--feature--img {
     width: 105%;
@@ -785,11 +784,11 @@ body {
     .blogs--big-title::after {
       content: "";
       display: block;
-      width: 10%;
-      background-image: linear-gradient(#ef1570, #ffa90a);
-      height: 7px;
+      width: 12.6%;
+      background-image: linear-gradient(90deg, #ef1570, #fea858);
+      height: 6px;
       margin: 0 auto;
-      margin-top: 2.5rem;
+      margin-top: 1.1rem;
       border-radius: 1rem; }
   .blogs--banner {
     border-radius: 1rem;
