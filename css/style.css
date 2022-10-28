@@ -400,7 +400,7 @@ body {
     gap: 2.5rem; }
   .about--stat-box {
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.4rem;
     box-shadow: 0 5px 20px 5px rgba(31, 66, 137, 0.1);
     text-align: center; }
   .about--stat-1 {
@@ -408,9 +408,10 @@ body {
     font-weight: 900;
     color: #1f2470; }
   .about--stat-2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
-    color: #1f2470; }
+    color: #51558a;
+    font-weight: 400; }
 
 @media only screen and (max-width: 1700px) {
   .about--container {
@@ -426,7 +427,7 @@ body {
   .about--stat-1 {
     font-size: 3.5rem; }
   .about--stat-2 {
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
   .about--stats {
     flex-direction: row;
     gap: 2.5rem; }
