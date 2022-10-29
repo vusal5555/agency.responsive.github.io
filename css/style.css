@@ -411,7 +411,7 @@ body {
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
     color: #51558a;
-    font-weight: 700; }
+    font-weight: 500; }
 
 @media only screen and (max-width: 1700px) {
   .about--container {
