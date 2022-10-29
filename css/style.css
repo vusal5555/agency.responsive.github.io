@@ -515,17 +515,17 @@ body {
     .services--service:hover {
       transform: translateY(-5px); }
     .services--service-title {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       margin-bottom: 1.5rem;
       color: #1f2470;
       font-weight: 900; }
     .services--service-text {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       margin-bottom: 2.5rem;
       color: #262e5a; }
 
 .fa-tv {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 3.5rem;
   color: #ef1570; }
 
@@ -630,12 +630,12 @@ body {
     align-items: center;
     margin-bottom: 3.5rem; }
   .features--feature--title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1.1rem;
     color: #1f2470;
     font-weight: 900; }
   .features--feature--text {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: #262e5a; }
 
 .fa-lightbulb {
@@ -815,7 +815,7 @@ body {
     padding: 3rem;
     border-radius: 1rem; }
   .blogs--title {
-    font-size: 2rem;
+    font-size: 2.1rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
     color: #1f2470; }
@@ -964,7 +964,7 @@ body {
     gap: 3.5rem;
     color: #fff; }
   .footer--text {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
   .footer--box {
@@ -973,12 +973,12 @@ body {
     flex-direction: column;
     gap: 1.5rem; }
   .footer--title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 700; }
   .footer--link {
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem; }
+    font-size: 1.8rem; }
     .footer--link:hover {
       text-decoration: underline; }
   .footer--social {
@@ -994,7 +994,7 @@ body {
     background: #ef1f76;
     padding: 1.5rem 0; }
   .footer--rights {
-    font-size: 1.5rem; }
+    font-size: 1.8rem; }
 
 .fa-facebook {
   background-color: #fff;
