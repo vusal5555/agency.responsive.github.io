@@ -869,7 +869,7 @@ body {
     .blogs--big-title::after {
       width: 17.5%; }
   .blogs--blog {
-    grid-template-columns: 0.75fr 1fr; }
+    grid-template-columns: 0.758fr 1fr; }
   .blogs--title {
     font-size: 2rem; } }
 
