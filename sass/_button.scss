@@ -1,11 +1,12 @@
 .btn {
   border: none;
   outline: none;
-  background-image: linear-gradient(
-    to right,
-    hsl(335, 87%, 53%),
-    hsl(39, 100%, 52%)
-  );
+  // background-image: linear-gradient(
+  //   to right,
+  //   hsl(236, 57%, 28%),
+  //   hsl(39, 100%, 52%)
+  // );
+  background-color: hsl(39, 100%, 52%);
   padding: 1.5rem 3rem;
   border-radius: 5px;
   color: #fff;

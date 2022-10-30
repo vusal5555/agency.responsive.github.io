@@ -1,15 +1,29 @@
 .header {
   // background-image: url(../images/bg.jpg);
   // width: 100%;
+  // background-image: linear-gradient(
+  //   to right,
+  //   hsl(335, 87%, 53%),
+  //   hsl(236, 57%, 28%)
+  // );
   background-image: linear-gradient(
-    to right,
-    hsl(335, 87%, 53%),
-    hsl(236, 57%, 28%)
-  );
-  height: 120vh;
+      90deg,
+      hsl(231, 68%, 21%) 0,
+      hsl(275, 54%, 33%) 51%,
+      hsl(231, 68%, 21%)
+    ),
+    url("../images/hero-bg-bottom.png"), url("../images/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-repeat: no-repeat, no-repeat, no-repeat;
+  // background-position: -280px bottom, center, center;
+  // background-size: auto, cover, auto;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  height: 100vh;
+  line-height: 1.25;
 
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 110vh, 0 100%);
+  // position: relative;
 
   margin-bottom: 15rem;
   &--navbar {
@@ -30,7 +44,7 @@
     &-link {
       text-decoration: none;
       color: #fff;
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       font-weight: 600;
     }
 
@@ -49,7 +63,7 @@
 
     &--brand {
       text-decoration: none;
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       color: #fff;
       font-weight: 900;
     }
@@ -71,18 +85,18 @@
   }
 
   &--upper-title {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     margin-bottom: 1.5rem;
     color: hsl(39, 100%, 52%);
   }
 
   &--title {
-    font-size: 5rem;
+    font-size: 5.4rem;
     color: #fff;
     margin-bottom: 1.5rem;
   }
   &--text {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #fff;
     margin-bottom: 1.6rem;
 
@@ -110,30 +124,56 @@
 
 @media only screen and (max-width: 1900px) {
   .header {
-    height: 145vh;
+    height: 120vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    padding-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .header {
+    height: 120vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    padding-bottom: 5rem;
+    &--hero-container {
+      width: 90%;
+      padding-inline: 1.5rem;
+      gap: 4.5rem;
+    }
+    // &--title {
+    //   font-size: 5.4rem;
+    // }
+
+    &--navbar {
+      width: 88%;
+    }
   }
 }
 
 @media only screen and (max-width: 1600px) {
   .header {
-    &--hero-container {
-      width: 95%;
-      gap: 4.5rem;
-    }
-    &--title {
-      font-size: 3.5rem;
-    }
+    padding-bottom: 5rem;
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1300px) {
   .header {
-    height: 100vh;
+    // height: 100%;
+    padding-bottom: 5rem;
+    height: 100%;
+    // clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
 
     // clip-path: polygon(0 0, 100% 0, 100% 145vh, 0 100%);
     margin-bottom: 0;
-    overflow: visible;
+    clip-path: none;
+
+    &--hero-container {
+      width: 80%;
+      padding-inline: 1.5rem;
+      gap: 4.5rem;
+    }
+
     &--navbar {
-      width: 95%;
+      width: 77%;
     }
 
     &--img-con {
@@ -146,26 +186,25 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
   .header {
-    margin-bottom: 0;
-    // height: 150vh;
-    // clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
-    overflow: visible;
-    height: 120vh;
-    clip-path: polygon(0 0, 100% 0, 100% 115vh, 0 100%);
-
+    line-height: 1.26;
     &--hero-container {
-      grid-template-columns: 1fr 1fr;
-      width: 95%;
-      gap: 2.5rem;
+      width: 92%;
     }
-    &--title {
-      font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    line-height: 1.26;
+    &--hero-container {
+      width: 92%;
     }
 
     &--navbar {
-      width: 95%;
+      width: 88%;
+
       &-nav {
         flex-direction: column;
 
@@ -188,67 +227,87 @@
         transition: all 0.5s;
         text-transform: uppercase;
       }
+
+      &--brand {
+        font-size: 3rem;
+      }
     }
 
+    &--title {
+      font-size: 4.78rem;
+      display: block;
+      width: 90%;
+    }
+
+    .hidden {
+      top: 0;
+    }
+
+    .fa-solid.fa-xmark {
+      display: block;
+      color: #fff;
+      font-size: 2.5rem;
+      margin: 1rem;
+
+      cursor: pointer;
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+    }
+    .fa-solid.fa-bars {
+      display: block;
+      color: #fff;
+      font-size: 2.5rem;
+      margin: 1rem;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .header {
+    line-height: 1.26;
+    margin-bottom: 0;
+    // height: 150vh;
+    // clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    // padding-bottom: 10rem;
+    // height: 140vh;
+    // min-height: minmax(150vh, 600px);
+    height: 110%;
+    // clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    // margin-bottom: 25rem;
+    padding-bottom: 5rem;
+    clip-path: none;
+
     &--hero-container {
-      margin: 8rem auto;
-      // margin-bottom: 15rem;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      padding-inline: 1.5rem;
+      gap: 3.5rem;
+    }
+
+    // &--text-box {
+    //   height: 100vh;
+    // }
+
+    &--text {
+      padding-bottom: 1.5rem;
     }
 
     &--img-con {
       width: 100%;
       margin: 0 auto;
     }
-  }
 
-  .hidden {
-    top: 0;
-  }
-
-  .fa-solid.fa-xmark {
-    display: block;
-    color: #fff;
-    font-size: 3.5rem;
-    margin: 1rem;
-
-    cursor: pointer;
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-  }
-  .fa-solid.fa-bars {
-    display: block;
-    color: #fff;
-    font-size: 3.5rem;
-    margin: 1rem;
-    cursor: pointer;
-  }
-}
-
-// @media only screen and (max-width: 980px) {
-//   .header {
-//     height: 125vh;
-//   }
-// }
-@media only screen and (max-width: 600px) {
-  .header {
-    margin-bottom: 0;
-    height: 125vh;
-    clip-path: polygon(0 0, 100% 0, 100% 105vh, 0 100%);
-
-    &--hero-container {
-      grid-template-columns: 1fr;
-      // flex-direction: column;
-      width: 95%;
-      // gap: 4.5rem;
-      overflow: visible;
-    }
     &--title {
-      font-size: 3.5rem;
+      font-size: 4.78rem;
+      display: block;
+      width: 90%;
     }
 
     &--navbar {
       width: 95%;
+
       &-nav {
         flex-direction: column;
 
@@ -270,6 +329,97 @@
 
         transition: all 0.5s;
         text-transform: uppercase;
+      }
+
+      &--brand {
+        font-size: 3rem;
+      }
+    }
+
+    &--hero-container {
+      margin: 8rem auto;
+      margin-top: 8rem;
+      // margin-bottom: 15rem;
+    }
+  }
+
+  .hidden {
+    top: 0;
+  }
+
+  .fa-solid.fa-xmark {
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem;
+
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+  .fa-solid.fa-bars {
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+}
+
+// @media only screen and (max-width: 980px) {
+//   .header {
+//     height: 125vh;
+//   }
+// }
+@media only screen and (max-width: 600px) {
+  .header {
+    line-height: 1.26;
+    margin-bottom: 0;
+    // height: 100%;
+    // clip-path: polygon(0 0, 100% 0, 100% 105vh, 0 100%);
+
+    &--hero-container {
+      grid-template-columns: 1fr;
+      // flex-direction: column;
+      width: 100%;
+      padding-inline: 1.5rem;
+      // gap: 4.5rem;
+    }
+
+    &--title {
+      font-size: 4.78rem;
+      width: 90%;
+    }
+
+    &--navbar {
+      width: 95%;
+      padding-top: 2.5rem;
+      &-nav {
+        flex-direction: column;
+
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: -100vh;
+        left: 0;
+        text-align: center;
+        z-index: 100;
+        overflow-y: auto;
+        background-image: linear-gradient(
+          hsl(236, 57%, 28%),
+          hsl(335, 87%, 53%)
+        );
+        padding: 3rem;
+        padding-top: 15rem;
+        align-items: center;
+
+        transition: all 0.5s;
+        text-transform: uppercase;
+      }
+
+      &--brand {
+        font-size: 3rem;
       }
     }
 
@@ -291,7 +441,7 @@
   .fa-solid.fa-xmark {
     display: block;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 1rem;
 
     cursor: pointer;
@@ -302,7 +452,7 @@
   .fa-solid.fa-bars {
     display: block;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer;
   }

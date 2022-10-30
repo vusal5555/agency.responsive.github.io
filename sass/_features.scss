@@ -1,5 +1,5 @@
 .feautures {
-  padding: 10rem 0;
+  padding: 6rem 0;
 }
 
 .features {
@@ -16,7 +16,7 @@
 
   &--title {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin-bottom: 4.5rem;
     font-weight: 900;
     color: hsl(236, 57%, 28%);
@@ -25,16 +25,22 @@
       content: "";
       display: block;
       width: 10%;
-      background-image: linear-gradient(hsl(335, 87%, 51%), hsl(39, 100%, 52%));
-      height: 5px;
+      background-image: linear-gradient(
+        90deg,
+        hsl(335, 87%, 51%),
+        hsl(29, 99%, 67%)
+      );
+      height: 6px;
 
       margin: 0 auto;
-      margin-top: 2.5rem;
+      margin-top: 1.1rem;
+      border-radius: 1rem;
     }
   }
 
   &--feature--img {
-    width: 100%;
+    width: 105%;
+    animation: waveAnim 2s linear infinite alternate;
   }
 
   &--features-box-1 {
@@ -44,21 +50,21 @@
   }
   &--feature-1 {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     align-items: center;
 
     margin-bottom: 3.5rem;
   }
 
   &--feature--title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1.1rem;
     color: hsl(236, 57%, 28%);
     font-weight: 900;
   }
 
   &--feature--text {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: hsl(230, 41%, 25%);
   }
 }
@@ -72,39 +78,95 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 1500px) {
+@keyframes waveAnim {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  100% {
+    transform: translate(2px, 2px) rotate(1deg);
+  }
+}
+
+@media only screen and (max-width: 1700px) {
   .features {
     &--container {
-      width: 95%;
+      width: 90%;
+      margin: 0 auto;
+      padding-inline: 1.5rem;
+    }
+  }
+
+  .features {
+    &--title {
+      font-size: 4.67rem;
+
+      &::after {
+        width: 13.8%;
+      }
+    }
+
+    &--feature--title {
+      font-size: 2.5rem;
+    }
+
+    &--feature--text {
+      font-size: 1.7rem;
+    }
+
+    &--feature-1 {
+      align-items: baseline;
+    }
+
+    &--features--img-con {
+      max-width: max-content;
+      height: auto;
+    }
+
+    &--feature--img {
+      width: 105%;
+
+      // transform: translateX(35%);
       margin: 0 auto;
     }
   }
 
   .fa-lightbulb {
-    transform: translateY(0);
+    transform: translateY(3rem);
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .feautures {
-    padding: 0;
+    padding: 6rem 0;
+
+    // padding-bottom: 2rem;
+    padding-bottom: 1.6rem;
   }
   .features {
     &--container {
       grid-template-columns: 1fr;
+      width: 90%;
+      padding-inline: 1.5rem;
+      gap: 1.3rem;
     }
 
     &--features-box-1 {
       display: flex;
       flex-direction: row;
       align-self: center;
-      gap: 1.5rem;
+      gap: 3.5rem;
+    }
+
+    &--features--img-con {
+      width: 60%;
+      margin: 0 auto;
     }
 
     &--feature--img {
-      width: 50%;
-      transform: translateX(50%);
+      width: 103%;
+      // transform: translateX(50%);
       margin: 0 auto;
+      text-align: center;
     }
 
     &--title {
@@ -117,19 +179,21 @@
       &::after {
         content: "";
         display: block;
-        width: 20%;
+        width: 15%;
+
         background-image: linear-gradient(
           hsl(335, 87%, 51%),
           hsl(39, 100%, 52%)
         );
-        height: 5px;
+        height: 7px;
 
         margin: 0 auto;
         margin-top: 2.5rem;
+        border-radius: 1rem;
       }
     }
     &--feature--title {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     &--feature--text {
       font-size: 2rem;
@@ -139,7 +203,7 @@
   .fa-lightbulb {
     padding: 3rem 3.5rem;
     font-size: 3.5rem;
-    transform: translateY(-1.5rem);
+    transform: translateY(3rem);
   }
 }
 @media only screen and (max-width: 600px) {
@@ -155,7 +219,11 @@
       display: flex;
       flex-direction: column;
       align-self: center;
-      gap: 1.5rem;
+      // gap: 1.5rem;
+    }
+    &--features--img-con {
+      width: 100%;
+      margin: 0 auto;
     }
 
     &--feature--img {
@@ -179,7 +247,8 @@
           hsl(335, 87%, 51%),
           hsl(39, 100%, 52%)
         );
-        height: 5px;
+        height: 7px;
+        border-radius: 1rem;
 
         margin: 0 auto;
         margin-top: 2.5rem;
