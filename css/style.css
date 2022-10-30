@@ -808,7 +808,7 @@ body {
       transform: scale(1.1); }
   .blogs--blog {
     display: grid;
-    grid-template-columns: 0.851fr 1fr;
+    grid-template-columns: 0.845fr 1fr;
     gap: 2rem;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
