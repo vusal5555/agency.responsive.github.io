@@ -639,9 +639,9 @@ body {
     color: #262e5a; }
 
 .fa-lightbulb {
-  font-size: 3rem;
+  font-size: 2.9rem;
   background-color: #1f2470;
-  padding: 2.6rem 2.8rem;
+  padding: 2.6rem 2.99rem;
   border-radius: 50%;
   transform: translateY(-1.5rem);
   color: #fff; }
