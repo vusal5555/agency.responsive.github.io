@@ -92,7 +92,9 @@
     padding-bottom: 10rem; }
     .header--hero-container {
       grid-template-columns: 1fr 1.05fr;
-      gap: 7.5rem; } }
+      gap: 6rem; }
+    .header--img-con {
+      transform: translateY(1rem); } }
 
 @media only screen and (max-width: 1700px) {
   .header {
@@ -103,16 +105,20 @@
       width: 90%;
       padding-inline: 1.5rem;
       grid-template-columns: 1fr 1.05fr;
-      gap: 7.5rem; }
+      gap: 6rem; }
     .header--navbar {
-      width: 88%; } }
+      width: 88%; }
+    .header--img-con {
+      transform: translateY(1rem); } }
 
 @media only screen and (max-width: 1600px) {
   .header {
     padding-bottom: 10rem; }
     .header--hero-container {
       grid-template-columns: 1fr 1.05fr;
-      gap: 7.5rem; } }
+      gap: 6rem; }
+    .header--img-con {
+      transform: translateY(1rem); } }
 
 @media only screen and (max-width: 1300px) {
   .header {
