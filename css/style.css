@@ -94,7 +94,7 @@
       grid-template-columns: 1fr 1.05fr;
       gap: 4.5rem; }
     .header--img-con {
-      transform: translateY(-0.5rem); } }
+      transform: translateY(-0.3rem); } }
 
 @media only screen and (max-width: 1700px) {
   .header {
@@ -109,16 +109,17 @@
     .header--navbar {
       width: 88%; }
     .header--img-con {
-      transform: translateY(-0.5rem); } }
+      transform: translateY(-0.3rem); } }
 
 @media only screen and (max-width: 1600px) {
   .header {
-    padding-bottom: 10rem; }
+    padding-bottom: 10rem;
+    height: 125vh; }
     .header--hero-container {
       grid-template-columns: 1fr 1.05fr;
       gap: 4.5rem; }
     .header--img-con {
-      transform: translateY(-0.5rem); } }
+      transform: translateY(-0.3rem); } }
 
 @media only screen and (max-width: 1300px) {
   .header {
