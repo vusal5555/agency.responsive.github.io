@@ -92,7 +92,7 @@
     padding-bottom: 10rem; }
     .header--hero-container {
       grid-template-columns: 1fr 1.05fr;
-      gap: 4.88rem; }
+      gap: 4.48rem; }
     .header--img-con {
       transform: translateY(-0.2rem); } }
 
@@ -116,7 +116,7 @@
     padding-bottom: 10rem; }
     .header--hero-container {
       grid-template-columns: 1fr 1.05fr;
-      gap: 4.88rem; }
+      gap: 4.48rem; }
     .header--img-con {
       transform: translateY(-0.2rem); } }
 
