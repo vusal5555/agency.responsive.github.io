@@ -96,7 +96,7 @@
     .header--img-con {
       transform: translateY(-0.2rem); }
     .header--text {
-      width: 90%; } }
+      width: 100%; } }
 
 @media only screen and (max-width: 1700px) {
   .header {
@@ -113,7 +113,7 @@
     .header--img-con {
       transform: translateY(-0.2rem); }
     .header--text {
-      width: 90%; } }
+      width: 100%; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
@@ -124,7 +124,7 @@
     .header--img-con {
       transform: translateY(-0.2rem); }
     .header--text {
-      width: 90%; } }
+      width: 100%; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
