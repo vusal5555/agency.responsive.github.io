@@ -45,8 +45,8 @@
     width: 60%;
     margin: 10rem auto;
     display: grid;
-    grid-template-columns: 1fr 1.05fr;
-    gap: 7.5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
     align-items: center; }
   .header--img-con {
     transform: translateY(0.2rem); }
@@ -69,7 +69,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    width: 105%; }
+    width: 100%; }
     .header--text span {
       display: block; }
 
@@ -90,13 +90,8 @@
     height: 125vh;
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
     padding-bottom: 10rem; }
-    .header--hero-container {
-      grid-template-columns: 1fr 0.975fr;
-      gap: 4rem; }
     .header--img-con {
-      transform: translateY(-0.2rem); }
-    .header--text {
-      width: 100%; } }
+      transform: translateY(-0.2rem); } }
 
 @media only screen and (max-width: 1700px) {
   .header {
@@ -105,26 +100,17 @@
     padding-bottom: 10rem; }
     .header--hero-container {
       width: 90%;
-      padding-inline: 1.5rem;
-      grid-template-columns: 1fr 0.975fr;
-      gap: 4rem; }
+      padding-inline: 1.5rem; }
     .header--navbar {
       width: 88%; }
     .header--img-con {
-      transform: translateY(-0.2rem); }
-    .header--text {
-      width: 100%; } }
+      transform: translateY(-0.2rem); } }
 
 @media only screen and (max-width: 1600px) {
   .header {
     padding-bottom: 10rem; }
-    .header--hero-container {
-      grid-template-columns: 1fr 0.975fr;
-      gap: 4rem; }
     .header--img-con {
-      transform: translateY(-0.2rem); }
-    .header--text {
-      width: 100%; } }
+      transform: translateY(-0.2rem); } }
 
 @media only screen and (max-width: 1300px) {
   .header {
