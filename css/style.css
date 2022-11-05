@@ -99,7 +99,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
     padding-bottom: 10rem; }
     .header--hero-container {
-      width: 88.498%;
+      width: 88.499%;
       padding-inline: 1.5rem; }
     .header--navbar {
       width: 86%; }
@@ -112,7 +112,7 @@
     .header--img-con {
       transform: translateY(-0.2rem); }
     .header--hero-container {
-      width: 88.498%;
+      width: 88.499%;
       padding-inline: 1.5rem; } }
 
 @media only screen and (max-width: 1300px) {
