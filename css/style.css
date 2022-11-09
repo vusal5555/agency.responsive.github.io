@@ -7,12 +7,12 @@
   background-repeat: no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   height: 100vh;
-  line-height: 1.25;
+  line-height: 1.28;
   margin-bottom: 15rem; }
   .header--navbar {
     width: 61.3%;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between; }
@@ -24,8 +24,9 @@
     .header--navbar-link {
       text-decoration: none;
       color: #fff;
-      font-size: 1.8rem;
-      font-weight: 600; }
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif; }
     .header--navbar-item::after {
       content: "";
       height: 2px;
@@ -38,12 +39,12 @@
       width: 100%; }
     .header--navbar--brand {
       text-decoration: none;
-      font-size: 3.5rem;
+      font-size: 3.2rem;
       color: #fff;
       font-weight: 900; }
   .header--hero-container {
     width: 61.3%;
-    margin: 10rem auto;
+    margin: 12.5rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
@@ -59,7 +60,8 @@
   .header--title {
     font-size: 5.4rem;
     color: #fff;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    line-height: 1.27; }
   .header--text {
     font-size: 1.5rem;
     color: #fff;
