@@ -90,7 +90,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
     padding-bottom: 10rem; }
     .header--img-con {
-      transform: translateY(0); } }
+      transform: translateY(0.2rem); } }
 
 @media only screen and (max-width: 1700px) {
   .header {
@@ -103,13 +103,13 @@
     .header--navbar {
       width: 86%; }
     .header--img-con {
-      transform: translateY(0); } }
+      transform: translateY(0.2rem); } }
 
 @media only screen and (max-width: 1600px) {
   .header {
     padding-bottom: 10rem; }
     .header--img-con {
-      transform: translateY(0); }
+      transform: translateY(0.2rem); }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; } }
