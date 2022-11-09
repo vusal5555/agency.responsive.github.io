@@ -48,13 +48,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     align-items: center; }
-  .header--img-con {
-    transform: translateY(0.2rem); }
   .header--img {
     width: 100%;
     animation: waveAnim 2s linear infinite alternate; }
   .header--upper-title {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     color: #ffa90a; }
   .header--title {
@@ -88,9 +87,7 @@
   .header {
     height: 125vh;
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
-    padding-bottom: 10rem; }
-    .header--img-con {
-      transform: translateY(0.2rem); } }
+    padding-bottom: 10rem; } }
 
 @media only screen and (max-width: 1700px) {
   .header {
@@ -101,15 +98,11 @@
       width: 88.5%;
       padding-inline: 1.5rem; }
     .header--navbar {
-      width: 86%; }
-    .header--img-con {
-      transform: translateY(0.2rem); } }
+      width: 86%; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
     padding-bottom: 10rem; }
-    .header--img-con {
-      transform: translateY(0.2rem); }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; } }
