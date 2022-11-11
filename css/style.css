@@ -98,7 +98,7 @@
     height: 125vh;
     clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
     padding-bottom: 10rem;
-    line-height: 1.25; }
+    line-height: 1.23; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
@@ -110,7 +110,7 @@
 @media only screen and (max-width: 1600px) {
   .header {
     padding-bottom: 10rem;
-    line-height: 1.25; }
+    line-height: 1.23; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
