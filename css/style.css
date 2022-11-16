@@ -96,7 +96,9 @@
     background-size: auto, cover, auto;
     padding-block-start: 120px;
     padding-block-end: 6rem;
-    height: 100%; }
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
@@ -113,7 +115,9 @@
     background-size: auto, cover, auto;
     padding-block-start: 120px;
     padding-block-end: 6rem;
-    height: 100%; }
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
@@ -126,9 +130,10 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: -280px bottom, center, center;
     background-size: auto, cover, auto;
-    padding-block-start: 120px;
+    padding-block-start: 12rem;
     padding-block-end: 6rem;
     margin-bottom: 0;
+    margin-top: 0;
     height: 100%;
     clip-path: none; }
     .header--hero-container {
@@ -205,6 +210,7 @@
   .header {
     line-height: 1.26;
     margin-bottom: 0;
+    margin-top: 0;
     height: 110%; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
