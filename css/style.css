@@ -225,9 +225,6 @@
 
 @media only screen and (max-width: 760px) {
   .header {
-    line-height: 1.26;
-    margin-bottom: 0;
-    margin-top: 0;
     background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: -280px bottom, center, center;
@@ -236,6 +233,7 @@
     padding-block-end: 2.5rem;
     margin-bottom: 0;
     margin-top: 0;
+    line-height: 1.26;
     height: 100%; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
@@ -294,8 +292,6 @@
 
 @media only screen and (max-width: 600px) {
   .header {
-    line-height: 1.26;
-    margin-bottom: 0;
     background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: -280px bottom, center, center;
@@ -304,7 +300,8 @@
     padding-block-end: 2.5rem;
     margin-bottom: 0;
     margin-top: 0;
-    height: 100%; }
+    height: 100%;
+    line-height: 1.26; }
     .header--hero-container {
       grid-template-columns: 1fr;
       width: 100%;
