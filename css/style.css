@@ -89,26 +89,45 @@
     line-height: 1.55; } }
 
 @media only screen and (max-width: 1700px) {
-  .header--hero-container {
-    width: 88.5%;
-    padding-inline: 1.5rem; }
-  .header--navbar {
-    width: 86%; }
-  .header--text {
-    line-height: 1.55; } }
+  .header {
+    background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: -280px bottom, center, center;
+    background-size: auto, cover, auto;
+    padding-block-start: 120px;
+    padding-block-end: 6rem; }
+    .header--hero-container {
+      width: 88.5%;
+      padding-inline: 1.5rem; }
+    .header--navbar {
+      width: 86%; }
+    .header--text {
+      line-height: 1.55; } }
 
 @media only screen and (max-width: 1600px) {
-  .header--hero-container {
-    width: 88.5%;
-    padding-inline: 1.5rem; }
-  .header--text {
-    line-height: 1.55; } }
+  .header {
+    background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: -280px bottom, center, center;
+    background-size: auto, cover, auto;
+    padding-block-start: 120px;
+    padding-block-end: 6rem; }
+    .header--hero-container {
+      width: 88.5%;
+      padding-inline: 1.5rem; }
+    .header--text {
+      line-height: 1.55; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
-    padding-bottom: 5rem;
-    height: 100%;
+    background-image: url(../images2/hero-bg-bottom.png), url(../images2/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: -280px bottom, center, center;
+    background-size: auto, cover, auto;
+    padding-block-start: 120px;
+    padding-block-end: 6rem;
     margin-bottom: 0;
+    height: 100%;
     clip-path: none; }
     .header--hero-container {
       width: 80%;
@@ -184,9 +203,7 @@
   .header {
     line-height: 1.26;
     margin-bottom: 0;
-    height: 110%;
-    padding-bottom: 5rem;
-    clip-path: none; }
+    height: 110%; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
       width: 100%;
