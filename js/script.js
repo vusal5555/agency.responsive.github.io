@@ -29,24 +29,26 @@ navbar.addEventListener("click", function (e) {
   }
 });
 
-// const header = document.querySelector(".header");
+const navlinks = document.querySelector(".header--navbar-nav");
 
-// const nav = document.querySelector(".header--navbar");
-// const navHeight = nav.getBoundingClientRect().height;
+const header = document.querySelector(".header");
 
-// const navSticky = function (entries) {
-//   const [entry] = entries;
+const nav = document.querySelector(".header--navbar");
+const navHeight = nav.getBoundingClientRect().height;
 
-//   if (!entry.isIntersecting) {
-//     nav.classList.add("sticky");
-//   } else {
-//     nav.classList.remove("sticky");
-//   }
-// };
-// const navObserver = new IntersectionObserver(navSticky, {
-//   root: null,
-//   threshold: 0,
-//   rootMargin: `-${navHeight}px`,
-// });
+const navSticky = function (entries) {
+  const [entry] = entries;
 
-// navObserver.observe(header);
+  if (!entry.isIntersecting) {
+    nav.classList.add("sticky");
+  } else {
+    nav.classList.remove("sticky");
+  }
+};
+const navObserver = new IntersectionObserver(navSticky, {
+  root: null,
+  threshold: 0,
+  rootMargin: `-${navHeight}px`,
+});
+
+navObserver.observe(header);
