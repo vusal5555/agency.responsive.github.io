@@ -88,13 +88,14 @@
 .sticky {
   position: fixed;
   width: 100%;
-  padding: 1.5rem 3.5rem;
+  padding: 2rem 3.5rem;
   box-shadow: 5px -5px 32px -7px rgba(0, 0, 0, 0.75);
-  background-color: black;
   z-index: 1000;
   top: 0;
   right: 0;
-  transition: all 0.2s; }
+  transition: 0.2s cubic-bezier(0.33, 0.85, 0.56, 1.02);
+  background-image: linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
+  color: aqua !important; }
 
 @media only screen and (max-width: 1900px) {
   .header--text {
@@ -171,7 +172,8 @@
       width: 100%; }
   .sticky {
     width: 100%;
-    z-index: 1000; } }
+    z-index: 1000;
+    padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 1024px) {
   .header {
@@ -191,7 +193,8 @@
       width: 89%; }
   .sticky {
     width: 100%;
-    z-index: 1000; } }
+    z-index: 1000;
+    padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 1000px) {
   .header {
@@ -250,7 +253,8 @@
       cursor: pointer; }
   .sticky {
     width: 100%;
-    z-index: 1000; } }
+    z-index: 1000;
+    padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 760px) {
   .header {
@@ -320,7 +324,8 @@
     cursor: pointer; }
   .sticky {
     width: 100%;
-    z-index: 1000; } }
+    z-index: 1000;
+    padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 600px) {
   .header {
@@ -386,7 +391,8 @@
     cursor: pointer; }
   .sticky {
     width: 100%;
-    z-index: 1000; } }
+    z-index: 1000;
+    padding: 1.5rem 2rem; } }
 
 * {
   padding: 0;
