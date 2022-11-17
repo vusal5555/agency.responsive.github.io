@@ -7,7 +7,8 @@
   background-repeat: no-repeat;
   height: 100vh;
   line-height: 1.265;
-  margin-bottom: 10rem; }
+  margin-bottom: 10rem;
+  overflow: hidden; }
   .header--navbar {
     width: 61.3%;
     margin: 0 auto;
@@ -84,6 +85,17 @@
 .fa-solid.fa-bars {
   display: none; }
 
+.sticky {
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem 3.5rem;
+  box-shadow: 5px -5px 32px -7px rgba(0, 0, 0, 0.75);
+  background-color: black;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  transition: all 0.2s; }
+
 @media only screen and (max-width: 1900px) {
   .header--text {
     line-height: 1.55; } }
@@ -99,14 +111,17 @@
     height: 100%;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.25; }
+    line-height: 1.2; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
     .header--navbar {
       width: 86%; }
     .header--text {
-      line-height: 1.55; } }
+      line-height: 1.55; }
+  .sticky {
+    width: 100%;
+    z-index: 1000; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
@@ -119,12 +134,15 @@
     height: 100%;
     margin-top: 0;
     margin-bottom: 10rem;
-    line-height: 1.25; }
+    line-height: 1.2; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
     .header--text {
-      line-height: 1.55; } }
+      line-height: 1.55; }
+  .sticky {
+    width: 100%;
+    z-index: 1000; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
@@ -150,7 +168,10 @@
       width: 100%; }
     .header--text {
       font-size: 1.75rem;
-      width: 100%; } }
+      width: 100%; }
+  .sticky {
+    width: 100%;
+    z-index: 1000; } }
 
 @media only screen and (max-width: 1024px) {
   .header {
@@ -167,7 +188,10 @@
     .header--hero-container {
       width: 92%; }
     .header--navbar {
-      width: 89%; } }
+      width: 89%; }
+  .sticky {
+    width: 100%;
+    z-index: 1000; } }
 
 @media only screen and (max-width: 1000px) {
   .header {
@@ -223,7 +247,10 @@
       color: #fff;
       font-size: 2.5rem;
       margin: 1rem;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .sticky {
+    width: 100%;
+    z-index: 1000; } }
 
 @media only screen and (max-width: 760px) {
   .header {
@@ -290,7 +317,10 @@
     color: #fff;
     font-size: 2.5rem;
     margin: 1rem;
-    cursor: pointer; } }
+    cursor: pointer; }
+  .sticky {
+    width: 100%;
+    z-index: 1000; } }
 
 @media only screen and (max-width: 600px) {
   .header {
@@ -353,7 +383,10 @@
     color: #fff;
     font-size: 2.5rem;
     margin: 1rem;
-    cursor: pointer; } }
+    cursor: pointer; }
+  .sticky {
+    width: 100%;
+    z-index: 1000; } }
 
 * {
   padding: 0;
