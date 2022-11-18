@@ -222,6 +222,7 @@
         left: 0;
         text-align: center;
         z-index: 10;
+        overflow-y: hidden;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
         padding-top: 15rem;
@@ -293,6 +294,7 @@
         left: 0;
         text-align: center;
         z-index: 10;
+        overflow-y: hidden;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
         padding-top: 15rem;
@@ -357,6 +359,7 @@
         left: 0;
         text-align: center;
         z-index: 100;
+        overflow-y: hidden;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
         padding-top: 15rem;
