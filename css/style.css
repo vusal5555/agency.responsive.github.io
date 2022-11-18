@@ -94,8 +94,9 @@
   top: 0;
   right: 0;
   transition: 0.2s cubic-bezier(0.33, 0.85, 0.56, 1.02);
+  transition: 0.1s;
   background-image: linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
-  color: aqua !important; }
+  color: black !important; }
 
 @media only screen and (max-width: 1900px) {
   .header--text {
@@ -221,7 +222,6 @@
         left: 0;
         text-align: center;
         z-index: 10;
-        overflow-y: auto;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
         padding-top: 15rem;
@@ -293,7 +293,6 @@
         left: 0;
         text-align: center;
         z-index: 10;
-        overflow-y: auto;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
         padding-top: 15rem;
@@ -358,7 +357,6 @@
         left: 0;
         text-align: center;
         z-index: 100;
-        overflow-y: auto;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
         padding-top: 15rem;
