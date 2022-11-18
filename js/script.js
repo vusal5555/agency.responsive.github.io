@@ -29,11 +29,10 @@ navbar.addEventListener("click", function (e) {
   }
 });
 
-const navlinks = document.querySelector(".header--navbar-nav");
-
 const header = document.querySelector(".header");
 
 const nav = document.querySelector(".header--navbar");
+
 const navHeight = nav.getBoundingClientRect().height;
 
 const navSticky = function (entries) {
