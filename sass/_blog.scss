@@ -1,7 +1,7 @@
 .blogs {
   padding: 6rem 0;
   &--container {
-    width: 60%;
+    width: 61.3%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -59,7 +59,7 @@
 
   &--blog {
     display: grid;
-    grid-template-columns: 0.851fr 1fr;
+    grid-template-columns: 0.83fr 1fr;
     gap: 2rem;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

@@ -5,7 +5,7 @@
 .features {
   padding: 15rem 0;
   &--container {
-    width: 60%;
+    width: 61.3%;
     margin: 0 auto;
     margin-top: 2.5rem;
     display: grid;
@@ -70,9 +70,9 @@
 }
 
 .fa-lightbulb {
-  font-size: 3.5rem;
+  font-size: 2.9rem;
   background-color: hsl(236, 57%, 28%);
-  padding: 2.5rem 3rem;
+  padding: 2.6rem 2.99rem;
   border-radius: 50%;
   transform: translateY(-1.5rem);
   color: #fff;
@@ -132,6 +132,8 @@
 
   .fa-lightbulb {
     transform: translateY(3rem);
+    padding: 2.6rem 3rem;
+    font-size: 2.9rem;
   }
 }
 
