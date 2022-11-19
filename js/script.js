@@ -55,9 +55,9 @@ navObserver.observe(header);
 
 const brandLogo = document.querySelector(".header--navbar--brand");
 
-brandLogo.addEventListener("click", function (e) {
-  e.preventDefault();
-});
+// brandLogo.addEventListener("click", function (e) {
+//   e.preventDefault();
+// });
 
 const revealSection = function (entries, observer) {
   const [entry] = entries;

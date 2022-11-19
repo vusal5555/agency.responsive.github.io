@@ -36,13 +36,15 @@
   );
   background-size: 200%;
   color: hsl(0, 0%, 100%);
-  padding: 12px 35px;
+  padding: 14px 35px;
   font-size: 1.5rem;
   font-weight: 500;
   border-radius: 0 25px;
   transition: 0.35s ease;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  display: block;
 
   &:active {
     transform: translateY(4px);
