@@ -26,6 +26,7 @@ navbar.addEventListener("click", function (e) {
     const id = e.target.getAttribute("href");
 
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+    navLinks.classList.remove("hidden");
   }
 });
 
@@ -51,3 +52,9 @@ const navObserver = new IntersectionObserver(navSticky, {
 });
 
 navObserver.observe(header);
+
+const brandLogo = document.querySelector(".header--navbar--brand");
+
+brandLogo.addEventListener("click", function (e) {
+  e.preventDefault();
+});
