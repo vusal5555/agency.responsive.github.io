@@ -132,7 +132,9 @@
       line-height: 1.55; }
   .sticky {
     width: 100%;
-    z-index: 1000; } }
+    z-index: 1000; }
+  .btn-navbar {
+    padding: 12px 35px; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
@@ -153,7 +155,9 @@
       line-height: 1.55; }
   .sticky {
     width: 100%;
-    z-index: 1000; } }
+    z-index: 1000; }
+  .btn-navbar {
+    padding: 12px 35px; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
