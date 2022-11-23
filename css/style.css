@@ -7,7 +7,6 @@
   background-repeat: no-repeat;
   height: 100vh;
   line-height: 1.265;
-  margin-bottom: 10rem;
   overflow: hidden; }
   .header--navbar {
     width: 61.3%;
@@ -494,7 +493,8 @@ body {
   font-family: "Poppins", sans-serif; }
 
 .about {
-  padding-bottom: 6rem; }
+  padding-bottom: 0rem;
+  padding-top: 18rem; }
   .about--container {
     width: 61.3%;
     margin: 0 auto;
@@ -571,10 +571,6 @@ body {
   .about--stats {
     width: 90%; } }
 
-@media only screen and (max-width: 1400px) {
-  .about {
-    margin-top: 5rem; } }
-
 @media only screen and (max-width: 1200px) {
   .about {
     margin-top: 0; }
@@ -617,7 +613,8 @@ body {
 
 .services {
   text-align: center;
-  padding: 6rem 0; }
+  padding: 18rem 0;
+  padding-bottom: 0; }
   .services--title {
     font-size: 4.5rem;
     margin-bottom: 4.5rem;
@@ -675,30 +672,28 @@ body {
     font-size: 1.7rem; } }
 
 @media only screen and (max-width: 1200px) {
-  .services {
-    padding: 6rem 0; }
-    .services--container {
-      width: 90%;
-      padding-inline: 1.5rem;
-      grid-template-columns: repeat(2, 1fr); }
-    .services--title {
-      font-size: 3.5rem;
-      margin-bottom: 4.5rem;
-      font-weight: 900;
-      color: #1f2470; }
-      .services--title::after {
-        content: "";
-        display: block;
-        width: 20%;
-        background-image: linear-gradient(#ef1570, #ffa90a);
-        height: 7px;
-        border-radius: 1rem;
-        margin: 0 auto;
-        margin-top: 2.5rem; }
-    .services--service-title {
-      font-size: 2.5rem; }
-    .services--service-text {
-      font-size: 1.8rem; } }
+  .services--container {
+    width: 90%;
+    padding-inline: 1.5rem;
+    grid-template-columns: repeat(2, 1fr); }
+  .services--title {
+    font-size: 3.5rem;
+    margin-bottom: 4.5rem;
+    font-weight: 900;
+    color: #1f2470; }
+    .services--title::after {
+      content: "";
+      display: block;
+      width: 20%;
+      background-image: linear-gradient(#ef1570, #ffa90a);
+      height: 7px;
+      border-radius: 1rem;
+      margin: 0 auto;
+      margin-top: 2.5rem; }
+  .services--service-title {
+    font-size: 2.5rem; }
+  .services--service-text {
+    font-size: 1.8rem; } }
 
 @media only screen and (max-width: 600px) {
   .services--container {
@@ -722,7 +717,8 @@ body {
     font-size: 1.8rem; } }
 
 .feautures {
-  padding: 6rem 0; }
+  padding: 18rem 0;
+  padding-bottom: 0; }
 
 .features {
   padding: 15rem 0; }
@@ -811,9 +807,6 @@ body {
     font-size: 2.9rem; } }
 
 @media only screen and (max-width: 1200px) {
-  .feautures {
-    padding: 6rem 0;
-    padding-bottom: 1.6rem; }
   .features--container {
     grid-template-columns: 1fr;
     width: 90%;
@@ -906,7 +899,8 @@ body {
     gap: 2.5rem; } }
 
 .blogs {
-  padding: 6rem 0; }
+  padding: 18rem 0;
+  padding-bottom: 6rem; }
   .blogs--container {
     width: 61.3%;
     margin: 0 auto;
@@ -1009,7 +1003,7 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .blogs {
-    padding-bottom: 15rem; }
+    padding-bottom: 6rem; }
     .blogs--container {
       grid-template-columns: 1fr;
       width: 90%;
@@ -1048,37 +1042,35 @@ body {
     font-size: 2rem; } }
 
 @media only screen and (max-width: 600px) {
-  .blogs {
-    padding-top: 6rem; }
-    .blogs--container {
-      grid-template-columns: 1fr;
-      width: 95%;
-      gap: 3rem; }
-    .blogs--big-title {
-      font-size: 3.5rem;
-      margin-bottom: 4.5rem;
-      font-weight: 900;
-      color: #1f2470; }
-      .blogs--big-title::after {
-        content: "";
-        display: block;
-        width: 45%;
-        background-image: linear-gradient(#ef1570, #ffa90a);
-        height: 7px;
-        border-radius: 1rem;
-        margin: 0 auto;
-        margin-top: 2.5rem; }
-    .blogs--blog {
-      grid-template-columns: 1fr;
-      padding: 2rem; }
-    .blogs--title {
-      font-size: 2rem; }
-    .blogs--text {
-      font-size: 1.8rem; }
-    .blogs--comment-stat {
-      font-size: 1.6rem; }
-    .blogs--date-stat {
-      font-size: 1.6rem; }
+  .blogs--container {
+    grid-template-columns: 1fr;
+    width: 95%;
+    gap: 3rem; }
+  .blogs--big-title {
+    font-size: 3.5rem;
+    margin-bottom: 4.5rem;
+    font-weight: 900;
+    color: #1f2470; }
+    .blogs--big-title::after {
+      content: "";
+      display: block;
+      width: 45%;
+      background-image: linear-gradient(#ef1570, #ffa90a);
+      height: 7px;
+      border-radius: 1rem;
+      margin: 0 auto;
+      margin-top: 2.5rem; }
+  .blogs--blog {
+    grid-template-columns: 1fr;
+    padding: 2rem; }
+  .blogs--title {
+    font-size: 2rem; }
+  .blogs--text {
+    font-size: 1.8rem; }
+  .blogs--comment-stat {
+    font-size: 1.6rem; }
+  .blogs--date-stat {
+    font-size: 1.6rem; }
   .fa-clock {
     font-size: 2rem; }
   .fa-comment {
