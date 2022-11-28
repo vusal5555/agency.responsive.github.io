@@ -15,7 +15,7 @@
   "author": "Jonas",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.4.10",
+    "autoprefixer": "^10.4.8",
     "concat": "^1.0.3",
     "live-server": "^1.2.2",
     "node-sass": "^7.0.3",

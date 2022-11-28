@@ -3,435 +3,253 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css""
     />
     <link rel="shortcut icon" type="svg" href="favicon.svg" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <title>Document</title>
   </head>
   <body>
-    <header class="header" id="header">
-      <nav class="header--navbar">
-        <a href="#" class="header--navbar--brand">Desinic</a>
+    <header class="header" id="home">
+      <nav class="header--nav">
+        <img src="images/logo.png" href="#home" class="header--logo" alt="" />
+        <button class="openmenu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="header--nav-nav" id="navLinks">
+          <li class="header--nav-item">
+            <a href="#home" class="header--nav-link">Home</a>
+          </li>
+          <li class="header--nav-item">
+            <a href="#about" class="header--nav-link">What we do</a>
+          </li>
+          <li class="header--nav-item">
+            <a href="#reason" class="header--nav-link">Why us</a>
+          </li>
+          <li class="header--nav-item">
+            <a href="#trial" class="header--nav-link">Try it out</a>
+          </li>
+          <li class="header--nav-item">
+            <a href="#cta" class="header--nav-link">Contact</a>
+          </li>
 
-        <ul class="header--navbar-nav" id="navLinks">
-          <i class="fa-solid fa-xmark"></i>
-
-          <li class="header--navbar-item">
-            <a href="#header" class="header--navbar-link">Home</a>
-          </li>
-          <li class="header--navbar-item">
-            <a href="#about" class="header--navbar-link">About</a>
-          </li>
-          <li class="header--navbar-item">
-            <a href="#services" class="header--navbar-link">Services</a>
-          </li>
-          <li class="header--navbar-item">
-            <a href="#features" class="header--navbar-link">Features</a>
-          </li>
-          <li class="header--navbar-item">
-            <a href="#blog" class="header--navbar-link">Blog</a>
-          </li>
-          <li class="header--navbar-item">
-            <a href="#contact" class="header--navbar-link">Contact us</a>
-          </li>
+          <button href="#footer" class="btn header--nav-link">
+            Get in touch
+          </button>
+          <button class="closemenu">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
         </ul>
-        <a class="header--navbar-link" href="#">
-          <button href="#" class="btn-navbar">Get A Quote</button>
-        </a>
-
-        <i class="fa-solid fa-bars"></i>
       </nav>
 
-      <div class="header--hero-container">
-        <div class="header--text-box">
-          <h3 class="header--upper-title">We Are Product Designer From UK</h3>
-          <h2 class="header--title">We Design Interfaces That Users Love</h2>
+      <div class="header--container">
+        <div class="header--description">
+          <h1 class="header--heading">Your Full-Funnel Growth Agency</h1>
           <p class="header--text">
-            Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
-            Pellentesque vitae ante at elit fringilla ac at purus.
+            Capture and retrieve your lists across devices to help you stay
+            organized at work, home, and on the go
           </p>
-          <button class="btn">Learn More</button>
+          <button class="btn header-btn">Get started</button>
         </div>
-        <div class="header--img-con">
-          <img src="images/hero-banner.png" alt="" class="header--img" />
+        <div class="header--img--container">
+          <img src="images/hero-banner.png" class="header--img" alt="" />
         </div>
       </div>
+
+      <img src="images/bg.png" class="bg-png" alt="" />
     </header>
 
-    <section class="about section" id="about">
-      <div class="about--container">
-        <div class="about--img-container">
-          <img src="images/about-banner.png" class="about--img" alt="" />
+    <section class="about-us section" id="about">
+      <div class="about-us--top">
+        <h2 class="about-us--heading">What we do</h2>
+        <p class="about-us--text">
+          Each time a digital asset is purchased or sold, Sequoir donates a
+          percentage of the fees back into the development of the asset through
+          its charitable foundation
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <i class="fa-sharp fa-solid fa-briefcase"></i>
+            <h3 class="card--heading">Paid Search And Social Management</h3>
+            <p class="card--text">
+              Each time a digital asset is purchased or sold, Sequoir donates a
+              percentage of the fees back
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-comments"></i>
+            <h3 class="card--heading">Direct Response Content</h3>
+            <p class="card--text">
+              Each time a digital asset is purchased or sold, Sequoir donates a
+              percentage of the fees back
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-rocket"></i>
+            <h3 class="card--heading">CRO And Retention Optimizations</h3>
+            <p class="card--text">
+              Each time a digital asset is purchased or sold, Sequoir donates a
+              percentage of the fees back
+            </p>
+          </div>
         </div>
-        <div class="about--text-box">
-          <h2 class="about--title">Why Our Agency</h2>
-          <p class="about--text">
-            In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna.
-            Nulla vel maximus risus. Donec volutpat metus lacinia risus
-            accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit
-            amet magna tempus hendrerit ut a odio. <br />
-            <br />
-            Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla
-            facilisi. Quisque turpis ante, vehicula condimentum arcu.
+      </div>
+
+      <div class="about-us--bottom">
+        <div class="img--container">
+          <img src="images/about-banner.png" class="about-us--img" alt="" />
+        </div>
+        <div class="about-us--desc">
+          <h2 class="about-us--bottom-heading">We’re Obsessed With Growth</h2>
+          <p class="about-us--bottom-text">
+            Each time a digital asset is purchased or sold, Sequoir donates a
+            percentage of the fees back into the development of the asset
+            through its charitable foundation.
           </p>
-          <div class="about--stats">
-            <div class="about--stat-box">
-              <p class="about--stat-1">9875</p>
-              <p class="about--stat-2">Satisfied Clients</p>
-            </div>
-            <div class="about--stat-box">
-              <p class="about--stat-1">9875</p>
-              <p class="about--stat-2">Satisfied Clients</p>
-            </div>
-            <div class="about--stat-box">
-              <p class="about--stat-1">9875</p>
-              <p class="about--stat-2">Satisfied Clients</p>
-            </div>
+
+          <button class="btn btn-about btn-trial">Sign up for free</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="reason section" id="reason">
+      <div class="reason--container">
+        <div class="reason--box-1">
+          <div class="reason--img-container">
+            <img src="images/feature-1.png" alt="" class="reason--img" />
+          </div>
+          <div class="description">
+            <h2 class="reason--heading">Cover Your Everyday Expenses</h2>
+            <p class="reason--text">
+              Inspiration comes in many ways and you like to save everything
+              from. sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="reason--box-2">
+          <div class="reason--img-container">
+            <img src="images/feature-2.png" alt="" class="reason--img" />
+          </div>
+          <div class="description-2">
+            <h2 class="reason--heading">Cover Your Everyday Expenses</h2>
+            <p class="reason--text">
+              Inspiration comes in many ways and you like to save everything
+              from. sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="services section" id="services">
-      <h2 class="services--title">Our Speciallization</h2>
-      <div class="services--container">
-        <div class="services--service">
-          <i class="fa-solid fa-tv"></i>
-          <h3 class="services--service-title">Strategy & Research</h3>
+    <section class="trial section" id="trial">
+      <div class="trial--box">
+        <h3 class="trial--heading">Try for 7 days free</h3>
+        <p class="trial--text">
+          Each time a digital asset is purchased or sold, Sequoir donates a
+          percentage of the fees back.
+        </p>
+        <form action="" class="trial--input-group">
+          <input type="text" class="trial--input" />
+          <button class="btn btn-about">Try it now</button>
+        </form>
+      </div>
+    </section>
 
-          <p class="services--service-text">
-            Mauris ut felis malesuada eros varius tristique a at orci. Nulla
-            vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum,
-            et porttitor. Lorem, ipsum dolor sit amet.
-          </p>
-          <button class="btn-card">Learn More</button>
+    <section class="cta section" id="cta">
+      <div class="cta--container">
+        <div class="cta--box-1">
+          <h2 class="cta--heading">Let’s Scale Your Brand, Together</h2>
+          <img src="images/contact.png" class="cta--img" alt="" />
         </div>
-        <div class="services--service">
-          <i class="fa-solid fa-tv"></i>
-          <h3 class="services--service-title">Strategy & Research</h3>
-          <p class="services--service-text">
-            Mauris ut felis malesuada eros varius tristique a at orci. Nulla
-            vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum,
-            et porttitor. Lorem, ipsum dolor sit amet.
-          </p>
-          <button class="btn-card">Learn More</button>
-        </div>
-        <div class="services--service">
-          <i class="fa-solid fa-tv"></i>
-          <h3 class="services--service-title">Strategy & Research</h3>
-          <p class="services--service-text">
-            Mauris ut felis malesuada eros varius tristique a at orci. Nulla
-            vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum,
-            et porttitor. Lorem, ipsum dolor sit amet.
-          </p>
-          <button class="btn-card">Learn More</button>
+        <div class="cta--box-2">
+          <form action="" class="cta--input-group">
+            <label for="" class="cta--label">Name*</label>
+            <input type="text" class="cta--input" placeholder="Type Name" />
+          </form>
+          <form action="" class="cta--input-group">
+            <label for="" class="cta--label">Phone*</label>
+            <input
+              type="text"
+              class="cta--input"
+              placeholder="Type Phone Number"
+            />
+          </form>
+          <form action="" class="cta--input-group">
+            <label for="" class="cta--label">Email Address*</label>
+            <input type="text" class="cta--input" placeholder="Email Address" />
+          </form>
+          <form action="" class="cta--input-group">
+            <label for="" class="cta--label">How can we help*</label>
+            <input
+              type="text"
+              class="cta--input"
+              placeholder="Type Description"
+            />
+          </form>
         </div>
       </div>
     </section>
 
-    <section class="feautures section" id="features">
-      <h2 class="features--title">Our Features</h2>
-      <div class="features--container">
-        <div class="features--features-box-1">
-          <div class="features--feature-1">
-            <i class="fa-solid fa-lightbulb"></i>
-            <div class="features--feature--text-box">
-              <h3 class="features--feature--title">Idea & Analysis</h3>
-              <p class="features--feature--text">
-                Praesent tincidunt congue est ut hendrerit. Pellentesque et eros
-                sit amet ipsum venenatis.
-              </p>
-            </div>
-          </div>
-          <div class="features--feature-1">
-            <i class="fa-solid fa-lightbulb"></i>
-            <div class="features--feature--text-box">
-              <h3 class="features--feature--title">Idea & Analysis</h3>
-              <p class="features--feature--text">
-                Praesent tincidunt congue est ut hendrerit. Pellentesque et eros
-                sit amet ipsum venenatis.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="features--features--img-con">
-          <img
-            src="images/feautres-banner.png"
-            class="features--feature--img"
-            alt=""
-          />
-        </div>
-
-        <div class="features--features-box-1">
-          <div class="features--feature-1">
-            <i class="fa-solid fa-lightbulb"></i>
-            <div class="features--feature--text-box">
-              <h3 class="features--feature--title">Idea & Analysis</h3>
-              <p class="features--feature--text">
-                Praesent tincidunt congue est ut hendrerit. Pellentesque et eros
-                sit amet ipsum venenatis.
-              </p>
-            </div>
-          </div>
-          <div class="features--feature-1">
-            <i class="fa-solid fa-lightbulb"></i>
-            <div class="features--feature--text-box">
-              <h3 class="features--feature--title">Idea & Analysis</h3>
-              <p class="features--feature--text">
-                Praesent tincidunt congue est ut hendrerit. Pellentesque et eros
-                sit amet ipsum venenatis.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="blogs section" id="blog">
-      <h2 class="blogs--big-title">Our Blog & News</h2>
-      <div class="blogs--container">
-        <div class="blogs--blog">
-          <figure class="blogs--banner">
-            <img
-              src="images/blog-1.jpg"
-              width="750"
-              height="350"
-              class="blogs--img"
-              alt=""
-            />
-          </figure>
-
-          <div class="blogs--text-con">
-            <h3 class="blogs--title">
-              Vestibulum massa arcu, consectetu pellentesque scelerisque.
-            </h3>
-            <p class="blogs--text">
-              Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et,
-              consequat laoreet erat nam ac imperdiet.
-            </p>
-            <div class="blogs--social-con">
-              <li class="blogs--date">
-                <i class="fa-regular fa-clock"></i>
-                <p class="blogs--date-stat">7 March, 2022</p>
-              </li>
-              <li class="blogs--comment">
-                <i class="fa-regular fa-comment"></i>
-                <p class="blogs--comment-stat">15</p>
-              </li>
-              <i class="fa-sharp fa-solid fa-share-nodes"></i>
-            </div>
-          </div>
-        </div>
-        <div class="blogs--blog">
-          <figure class="blogs--banner">
-            <img
-              src="images/blog-2.jpg"
-              width="750"
-              height="350"
-              class="blogs--img"
-              alt=""
-            />
-          </figure>
-          <div class="blogs--text-con">
-            <h3 class="blogs--title">
-              Vestibulum massa arcu, consectetu pellentesque scelerisque.
-            </h3>
-            <p class="blogs--text">
-              Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et,
-              consequat laoreet erat nam ac imperdiet.
-            </p>
-            <div class="blogs--social-con">
-              <li class="blogs--date">
-                <i class="fa-regular fa-clock"></i>
-                <p class="blogs--date-stat">7 March, 2022</p>
-              </li>
-              <li class="blogs--comment">
-                <i class="fa-regular fa-comment"></i>
-                <p class="blogs--comment-stat">15</p>
-              </li>
-              <i class="fa-sharp fa-solid fa-share-nodes"></i>
-            </div>
-          </div>
-        </div>
-        <div class="blogs--blog">
-          <figure class="blogs--banner">
-            <img
-              src="images/blog-3.jpg"
-              width="750"
-              height="350"
-              class="blogs--img"
-              alt=""
-            />
-          </figure>
-          <div class="blogs--text-con">
-            <h3 class="blogs--title">
-              Vestibulum massa arcu, consectetu pellentesque scelerisque.
-            </h3>
-            <p class="blogs--text">
-              Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et,
-              consequat laoreet erat nam ac imperdiet.
-            </p>
-            <div class="blogs--social-con">
-              <li class="blogs--date">
-                <i class="fa-regular fa-clock"></i>
-                <p class="blogs--date-stat">7 March, 2022</p>
-              </li>
-              <li class="blogs--comment">
-                <i class="fa-regular fa-comment"></i>
-                <p class="blogs--comment-stat">15</p>
-              </li>
-              <i class="fa-sharp fa-solid fa-share-nodes"></i>
-            </div>
-          </div>
-        </div>
-        <div class="blogs--blog">
-          <figure class="blogs--banner">
-            <img
-              src="images/blog-4.jpg"
-              width="750"
-              height="350"
-              class="blogs--img"
-              alt=""
-            />
-          </figure>
-          <div class="blogs--text-con">
-            <h3 class="blogs--title">
-              Vestibulum massa arcu, consectetu pellentesque scelerisque.
-            </h3>
-            <p class="blogs--text">
-              Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et,
-              consequat laoreet erat nam ac imperdiet.
-            </p>
-            <div class="blogs--social-con">
-              <li class="blogs--date">
-                <i class="fa-regular fa-clock"></i>
-                <p class="blogs--date-stat">7 March, 2022</p>
-              </li>
-              <li class="blogs--comment">
-                <i class="fa-regular fa-comment"></i>
-                <p class="blogs--comment-stat">15</p>
-              </li>
-              <i class="fa-sharp fa-solid fa-share-nodes"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer" id="contact">
+    <footer class="footer section" id="footer">
       <div class="footer--container">
-        <div class="footer--brand">
-          <a href="#" class="header--navbar--brand">Desinic</a>
-          <p class="footer--text">
-            Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed.
-            Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.
-          </p>
-          <ul class="footer--social-brand">
-            <li class="footer--item">
-              <a href="#" class="footer--link"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
+        <div class="footer--brand-box">
+          <img src="images/logo.png" alt="" class="footer--logo" />
+          <p class="footer--text">Follow us on</p>
+          <div class="footer--social-box">
+            <a href="#" class="fa-brands fa-github"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-youtube"></a>
+            <a href="#" class="fa-brands fa-facebook"></a>
+          </div>
+        </div>
+
+        <div class="footer--link-box">
+          <ul class="footer--links">
+            <li>
+              <h3 class="footer--links-title">Company</h3>
             </li>
-            <li class="footer--item">
-              <a href="#" class="footer--link">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
+            <li><a href="#" class="footer--link">About us</a></li>
+            <li><a href="#" class="footer--link">Features</a></li>
+            <li><a href="#" class="footer--link">Pricing</a></li>
+          </ul>
+          <ul class="footer--links">
+            <li>
+              <h3 class="footer--links-title">Company</h3>
             </li>
-            <li class="footer--item">
-              <a href="#" class="footer--link">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
+            <li><a href="#" class="footer--link">About us</a></li>
+            <li><a href="#" class="footer--link">Features</a></li>
+            <li><a href="#" class="footer--link">Pricing</a></li>
+          </ul>
+          <ul class="footer--links">
+            <li>
+              <h3 class="footer--links-title">Company</h3>
             </li>
+            <li><a href="#" class="footer--link">About us</a></li>
+            <li><a href="#" class="footer--link">Features</a></li>
+            <li><a href="#" class="footer--link">Pricing</a></li>
+          </ul>
+          <ul class="footer--links">
+            <li>
+              <h3 class="footer--links-title">Company</h3>
+            </li>
+            <li><a href="#" class="footer--link">About us</a></li>
+            <li><a href="#" class="footer--link">Features</a></li>
+            <li><a href="#" class="footer--link">Pricing</a></li>
           </ul>
         </div>
-
-        <ul class="footer--box">
-          <p class="footer--title">Our links</p>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Home</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">About</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Services</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Team</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Blog</a>
-          </li>
-        </ul>
-        <ul class="footer--box">
-          <p class="footer--title">Our Services</p>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Strategy & Research</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Web Development</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Web Solution</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Digital Marketing</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">App Design</a>
-          </li>
-        </ul>
-        <ul class="footer--box">
-          <p class="footer--title">Other links</p>
-          <li class="footer--item">
-            <a href="#" class="footer--link">FAQ</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Portfolio</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Privacy Policy</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Terms & Conditions</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Support</a>
-          </li>
-        </ul>
-        <ul class="footer--box">
-          <p class="footer--title">Our links</p>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Home</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">About</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Services</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Team</a>
-          </li>
-          <li class="footer--item">
-            <a href="#" class="footer--link">Blog</a>
-          </li>
-        </ul>
       </div>
-      <div class="footer--bottom">
-        <p class="footer--rights">© 2022 codewithsadee. All Right Reserved</p>
+
+      <div>
+        <p class="footer--last">© 2022 @codewithsadee All right reserved</p>
       </div>
     </footer>
   </body>
-
   <script src="js/script.js"></script>
 </html>
+
+<!-- onclick="showMenu()" onclick="hideMenu()" -->
