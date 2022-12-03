@@ -58,7 +58,7 @@ const brandLogo = document.querySelector(".header--navbar--brand");
 // brandLogo.addEventListener("click", function (e) {
 //   e.preventDefault();
 // });
-
+const allSections = document.querySelectorAll(".section");
 const revealSection = function (entries, observer) {
   const [entry] = entries;
 
@@ -70,8 +70,6 @@ const sectionObserver = new IntersectionObserver(revealSection, {
   root: null,
   threshold: 0.15,
 });
-
-const allSections = document.querySelectorAll(".section");
 
 allSections.forEach((section) => {
   sectionObserver.observe(section);
