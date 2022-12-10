@@ -546,57 +546,61 @@ body {
     font-weight: 400; }
 
 @media only screen and (max-width: 1700px) {
-  .about--container {
-    width: 90%;
-    margin: 0 auto;
-    padding-inline: 1.5rem; }
-  .about--title {
-    font-size: 4.5rem; }
-    .about--title::after {
-      width: 38.68%; }
-  .about--text {
-    font-size: 2rem; }
-  .about--stat-1 {
-    font-size: 3.5rem; }
-  .about--stat-2 {
-    font-size: 1.5rem; }
-  .about--stats {
-    flex-direction: row;
-    gap: 2.5rem; }
-  .about--stat-box {
-    width: 100%;
-    padding: 1.5rem;
-    box-shadow: 0 5px 20px 5px rgba(31, 66, 137, 0.1);
-    text-align: center; }
-  .about--stats {
-    width: 90%; } }
+  .about {
+    padding-top: 10rem; }
+    .about--container {
+      width: 90%;
+      margin: 0 auto;
+      padding-inline: 1.5rem; }
+    .about--title {
+      font-size: 4.5rem; }
+      .about--title::after {
+        width: 38.68%; }
+    .about--text {
+      font-size: 2rem; }
+    .about--stat-1 {
+      font-size: 3.5rem; }
+    .about--stat-2 {
+      font-size: 1.5rem; }
+    .about--stats {
+      flex-direction: row;
+      gap: 2.5rem; }
+    .about--stat-box {
+      width: 100%;
+      padding: 1.5rem;
+      box-shadow: 0 5px 20px 5px rgba(31, 66, 137, 0.1);
+      text-align: center; }
+    .about--stats {
+      width: 90%; } }
 
 @media only screen and (max-width: 1200px) {
-  .about--container {
-    padding: 6rem 0;
-    padding-bottom: 0;
-    width: 90%;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    padding-inline: 1.5rem; }
-  .about--title {
-    font-size: 3rem; }
-  .about--stats {
-    width: 95%;
-    flex-direction: row; }
-  .about--stat-box {
-    width: 100%;
-    padding: 1.5rem;
-    box-shadow: 0 5px 20px 1px rgba(31, 66, 137, 0.1);
-    text-align: center; }
-  .about--text {
-    font-size: 1.9rem; }
-  .about--title::after {
-    width: 20%; }
-  .about--stat-1 {
-    font-size: 3.5rem; }
-  .about--stat-2 {
-    font-size: 1.5rem; } }
+  .about {
+    padding-top: 15rem; }
+    .about--container {
+      padding: 6rem 0;
+      padding-bottom: 0;
+      width: 90%;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+      padding-inline: 1.5rem; }
+    .about--title {
+      font-size: 3rem; }
+    .about--stats {
+      width: 95%;
+      flex-direction: row; }
+    .about--stat-box {
+      width: 100%;
+      padding: 1.5rem;
+      box-shadow: 0 5px 20px 1px rgba(31, 66, 137, 0.1);
+      text-align: center; }
+    .about--text {
+      font-size: 1.9rem; }
+    .about--title::after {
+      width: 20%; }
+    .about--stat-1 {
+      font-size: 3.5rem; }
+    .about--stat-2 {
+      font-size: 1.5rem; } }
 
 @media only screen and (max-width: 600px) {
   .about--stats {
