@@ -48,7 +48,6 @@ const navSticky = function (entries) {
 const navObserver = new IntersectionObserver(navSticky, {
   root: null,
   threshold: 0,
-  rootMargin: `-${navHeight}px`,
 });
 
 navObserver.observe(header);
