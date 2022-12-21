@@ -492,7 +492,7 @@ body {
 
 .about {
   padding-bottom: 0rem;
-  padding-top: 23rem; }
+  padding-top: 15rem; }
   .about--container {
     width: 61.3%;
     margin: 0 auto;
@@ -545,7 +545,7 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .about {
-    padding-top: 15rem; }
+    padding-top: 10rem; }
     .about--container {
       width: 90%;
       margin: 0 auto;
