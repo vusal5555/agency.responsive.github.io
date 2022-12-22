@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   height: 100vh;
   line-height: 1.265;
-  overflow: hidden; }
+  overflow: hidden !important; }
   .header--navbar {
     width: 61.3%;
     margin: 0 auto;
@@ -115,6 +115,7 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
+    height: auto;
     line-height: 1.23; }
     .header--hero-container {
       width: 88.5%;
@@ -122,7 +123,10 @@
     .header--navbar {
       width: 86%; }
     .header--text {
-      line-height: 1.55; } }
+      line-height: 1.55; }
+    .header .sticky {
+      width: 100%;
+      padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
@@ -132,12 +136,16 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
+    height: auto;
     line-height: 1.23; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
     .header--text {
-      line-height: 1.55; } }
+      line-height: 1.55; }
+  .sticky {
+    width: 100%;
+    padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
@@ -146,7 +154,8 @@
     background-position: -280px bottom, center, center;
     background-size: auto, cover, auto;
     padding-block-start: 0;
-    padding-block-end: 2.5rem; }
+    padding-block-end: 2.5rem;
+    height: auto; }
     .header--hero-container {
       width: 80%;
       padding-inline: 1.5rem;
@@ -160,7 +169,10 @@
       width: 100%; }
     .header--text {
       font-size: 1.75rem;
-      width: 100%; } }
+      width: 100%; }
+  .sticky {
+    width: 100%;
+    padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 1024px) {
   .header {
@@ -170,11 +182,15 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
+    height: auto;
     line-height: 1.26; }
     .header--hero-container {
       width: 92%; }
     .header--navbar {
-      width: 89%; } }
+      width: 89%; }
+  .sticky {
+    width: 100%;
+    padding: 1.5rem 2rem; } }
 
 @media only screen and (max-width: 1000px) {
   .header {
@@ -184,6 +200,7 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
+    height: auto;
     line-height: 1.26; }
     .header--hero-container {
       width: 92%; }
@@ -228,6 +245,9 @@
       font-size: 2.5rem;
       margin: 1rem;
       cursor: pointer; }
+  .sticky {
+    width: 100%;
+    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
@@ -239,6 +259,7 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
+    height: auto;
     line-height: 1.26; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
@@ -294,6 +315,9 @@
     font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; }
+  .sticky {
+    width: 100%;
+    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
@@ -305,6 +329,7 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 10rem;
+    height: auto;
     line-height: 1.26; }
     .header--hero-container {
       grid-template-columns: 1fr;
@@ -356,6 +381,9 @@
     font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; }
+  .sticky {
+    width: 100%;
+    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
