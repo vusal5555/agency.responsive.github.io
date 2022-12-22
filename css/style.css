@@ -94,8 +94,7 @@
   z-index: 1000;
   top: 0;
   right: 0;
-  background-image: linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
-  color: black !important; }
+  background-image: linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a); }
 
 .section--hidden {
   opacity: 0;
@@ -116,9 +115,6 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
     line-height: 1.23; }
     .header--hero-container {
       width: 88.5%;
@@ -126,10 +122,7 @@
     .header--navbar {
       width: 86%; }
     .header--text {
-      line-height: 1.55; }
-  .sticky {
-    width: 100%;
-    z-index: 1000; } }
+      line-height: 1.55; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
@@ -139,18 +132,12 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: 100%;
-    margin-top: 0;
-    margin-bottom: 7rem;
     line-height: 1.23; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
     .header--text {
-      line-height: 1.55; }
-  .sticky {
-    width: 100%;
-    z-index: 1000; } }
+      line-height: 1.55; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
@@ -159,10 +146,7 @@
     background-position: -280px bottom, center, center;
     background-size: auto, cover, auto;
     padding-block-start: 0;
-    padding-block-end: 2.5rem;
-    margin-bottom: 0;
-    margin-top: 0;
-    height: 100%; }
+    padding-block-end: 2.5rem; }
     .header--hero-container {
       width: 80%;
       padding-inline: 1.5rem;
@@ -176,11 +160,7 @@
       width: 100%; }
     .header--text {
       font-size: 1.75rem;
-      width: 100%; }
-  .sticky {
-    width: 100%;
-    z-index: 1000;
-    padding: 1.5rem 2rem; } }
+      width: 100%; } }
 
 @media only screen and (max-width: 1024px) {
   .header {
@@ -190,18 +170,11 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    margin-bottom: 0;
-    margin-top: 0;
-    height: 100%;
     line-height: 1.26; }
     .header--hero-container {
       width: 92%; }
     .header--navbar {
-      width: 89%; }
-  .sticky {
-    width: 100%;
-    z-index: 1000;
-    padding: 1.5rem 2rem; } }
+      width: 89%; } }
 
 @media only screen and (max-width: 1000px) {
   .header {
@@ -211,9 +184,6 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    margin-bottom: 0;
-    margin-top: 0;
-    height: 100%;
     line-height: 1.26; }
     .header--hero-container {
       width: 92%; }
@@ -258,10 +228,6 @@
       font-size: 2.5rem;
       margin: 1rem;
       cursor: pointer; }
-  .sticky {
-    width: 100%;
-    z-index: 1000;
-    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
@@ -273,10 +239,7 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    margin-bottom: 0;
-    margin-top: 0;
-    line-height: 1.26;
-    height: 100%; }
+    line-height: 1.26; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
       width: 100%;
@@ -331,10 +294,6 @@
     font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; }
-  .sticky {
-    width: 100%;
-    z-index: 1000;
-    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
@@ -346,9 +305,6 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 10rem;
-    margin-bottom: 0;
-    margin-top: 0;
-    height: 100%;
     line-height: 1.26; }
     .header--hero-container {
       grid-template-columns: 1fr;
@@ -400,10 +356,6 @@
     font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; }
-  .sticky {
-    width: 100%;
-    z-index: 1000;
-    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
