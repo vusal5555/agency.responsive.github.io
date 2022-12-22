@@ -107,7 +107,7 @@
   .header--text {
     line-height: 1.55; } }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1630px) {
   .header {
     background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
     background-repeat: no-repeat, no-repeat, no-repeat;
