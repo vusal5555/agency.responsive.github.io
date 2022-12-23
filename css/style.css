@@ -11,7 +11,7 @@
   .header--navbar {
     width: 61.3%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between; }
@@ -86,10 +86,11 @@
 .fa-solid.fa-bars {
   display: none; }
 
+.nav-container {
+  width: 100%; }
+
 .sticky {
   position: fixed;
-  width: 100%;
-  padding: 2rem 3.5rem;
   box-shadow: 5px -5px 32px -7px rgba(0, 0, 0, 0.75);
   z-index: 1000;
   top: 0;
@@ -115,18 +116,16 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: auto;
-    line-height: 1.23; }
+    height: 100%;
+    line-height: 1.23;
+    overflow: hidden !important; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
     .header--navbar {
       width: 86%; }
     .header--text {
-      line-height: 1.55; }
-    .header .sticky {
-      width: 100%;
-      padding: 1.5rem 2rem; } }
+      line-height: 1.55; } }
 
 @media only screen and (max-width: 1600px) {
   .header {
@@ -136,16 +135,14 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: auto;
-    line-height: 1.23; }
+    height: 100%;
+    line-height: 1.23;
+    overflow: hidden !important; }
     .header--hero-container {
       width: 88.5%;
       padding-inline: 1.5rem; }
     .header--text {
-      line-height: 1.55; }
-  .sticky {
-    width: 100%;
-    padding: 1.5rem 2rem; } }
+      line-height: 1.55; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
@@ -155,7 +152,8 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: auto; }
+    overflow: hidden !important;
+    height: 100%; }
     .header--hero-container {
       width: 80%;
       padding-inline: 1.5rem;
@@ -169,10 +167,7 @@
       width: 100%; }
     .header--text {
       font-size: 1.75rem;
-      width: 100%; }
-  .sticky {
-    width: 100%;
-    padding: 1.5rem 2rem; } }
+      width: 100%; } }
 
 @media only screen and (max-width: 1024px) {
   .header {
@@ -182,15 +177,13 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: auto;
+    overflow: hidden !important;
+    height: 100%;
     line-height: 1.26; }
     .header--hero-container {
       width: 92%; }
     .header--navbar {
-      width: 89%; }
-  .sticky {
-    width: 100%;
-    padding: 1.5rem 2rem; } }
+      width: 89%; } }
 
 @media only screen and (max-width: 1000px) {
   .header {
@@ -200,7 +193,7 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: auto;
+    overflow: hidden !important;
     line-height: 1.26; }
     .header--hero-container {
       width: 92%; }
@@ -245,9 +238,6 @@
       font-size: 2.5rem;
       margin: 1rem;
       cursor: pointer; }
-  .sticky {
-    width: 100%;
-    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
@@ -259,8 +249,9 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 2.5rem;
-    height: auto;
-    line-height: 1.26; }
+    overflow: hidden !important;
+    line-height: 1.26;
+    height: 100%; }
     .header--hero-container {
       grid-template-columns: 1fr 1fr;
       width: 100%;
@@ -315,9 +306,6 @@
     font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; }
-  .sticky {
-    width: 100%;
-    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 
@@ -329,8 +317,8 @@
     background-size: auto, cover, auto;
     padding-block-start: 0;
     padding-block-end: 10rem;
-    height: auto;
-    line-height: 1.26; }
+    line-height: 1.26;
+    height: 100%; }
     .header--hero-container {
       grid-template-columns: 1fr;
       width: 100%;
@@ -339,8 +327,7 @@
       font-size: 4.78rem;
       width: 90%; }
     .header--navbar {
-      width: 95%;
-      padding-top: 2.5rem; }
+      width: 95%; }
       .header--navbar-nav {
         flex-direction: column;
         position: fixed;
@@ -381,9 +368,6 @@
     font-size: 2.5rem;
     margin: 1rem;
     cursor: pointer; }
-  .sticky {
-    width: 100%;
-    padding: 1.5rem 2rem; }
   .btn-navbar {
     display: none !important; } }
 

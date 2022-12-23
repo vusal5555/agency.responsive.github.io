@@ -34,7 +34,7 @@ const header = document.querySelector(".header");
 
 const nav = document.querySelector(".header--navbar");
 
-// const navHeight = nav.getBoundingClientRect().height;
+const navHeight = nav.getBoundingClientRect().height;
 
 // const navSticky = function (entries) {
 //   const [entry] = entries;
@@ -48,18 +48,19 @@ const nav = document.querySelector(".header--navbar");
 // const navObserver = new IntersectionObserver(navSticky, {
 //   root: null,
 //   threshold: 0,
-//   rootMargin: "-120px",
 // });
 
 // navObserver.observe(header);
 
 const brandLogo = document.querySelector(".header--navbar--brand");
+const navCon = document.querySelector(".nav-container");
 
+const navConLinks = document.querySelectorAll(".header--navbar-link");
 window.addEventListener("scroll", function () {
   if (window.scrollY >= 500) {
-    nav.classList.add("sticky");
+    navCon.classList.add("sticky");
   } else {
-    nav.classList.remove("sticky");
+    navCon.classList.remove("sticky");
   }
 });
 
