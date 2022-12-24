@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 1800px) {
   .header--navbar {
-    padding: 1.5rem 35 rem; } }
+    padding: 1.5rem 33rem; } }
 
 @media only screen and (max-width: 1700px) {
   .header--navbar {
@@ -154,7 +154,7 @@
 
 @media only screen and (max-width: 1400px) {
   .header--navbar {
-    padding: 1.5rem 11rem; } }
+    padding: 1.5rem 10rem; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
@@ -182,6 +182,17 @@
     .header--navbar {
       padding: 1.5rem 14rem; } }
 
+@media only screen and (max-width: 1200px) {
+  .header--navbar {
+    padding: 1.5rem 10rem; } }
+
+@media only screen and (max-width: 1100px) {
+  .header--navbar {
+    padding: 1.5rem 6rem; }
+  .header--hero-container {
+    width: 92%;
+    margin-top: 20rem; } }
+
 @media only screen and (max-width: 1024px) {
   .header {
     background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
@@ -197,7 +208,7 @@
       width: 92%;
       margin-top: 20rem; }
     .header--navbar {
-      padding: 1.5rem 6rem; }
+      padding: 1.5rem 5rem; }
       .header--navbar-link {
         color: #fff !important; } }
 
@@ -215,7 +226,7 @@
       width: 92%;
       margin-top: 20rem; }
     .header--navbar {
-      padding: 1.5rem 6rem; }
+      padding: 1.5rem 5rem; }
       .header--navbar-nav {
         flex-direction: column;
         position: fixed;
@@ -286,24 +297,26 @@
       font-size: 4.78rem;
       display: block;
       width: 90%; }
-    .header--navbar-nav {
-      flex-direction: column;
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      top: -100vh;
-      left: 0;
-      text-align: center;
-      z-index: 10;
-      overflow-y: hidden;
-      background-image: linear-gradient(#1f2470, #ef1f76);
-      padding: 3rem;
-      padding-top: 15rem;
-      align-items: center;
-      transition: all 0.5s;
-      text-transform: uppercase; }
-    .header--navbar--brand {
-      font-size: 3rem; }
+    .header--navbar {
+      padding: 1.5rem 1.5rem; }
+      .header--navbar-nav {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: -100vh;
+        left: 0;
+        text-align: center;
+        z-index: 10;
+        overflow-y: hidden;
+        background-image: linear-gradient(#1f2470, #ef1f76);
+        padding: 3rem;
+        padding-top: 15rem;
+        align-items: center;
+        transition: all 0.5s;
+        text-transform: uppercase; }
+      .header--navbar--brand {
+        font-size: 3rem; }
     .header-link {
       color: #fff !important; }
   .hidden {
