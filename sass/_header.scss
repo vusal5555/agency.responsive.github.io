@@ -11,8 +11,8 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  // height: 100vh;
   height: 100vh;
+  // height: 100vh;
 
   line-height: 1.265;
 
@@ -23,12 +23,19 @@
   overflow: hidden !important;
 
   &--navbar {
-    width: 61.3%;
-    margin: 0 auto;
-    padding: 1.5rem 0;
+    // width: 61.3%;
+    // margin: 0 auto;
+    // padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1.5rem 37rem;
+
+    z-index: 10000;
+    width: 100%;
 
     &-nav {
       display: flex;
@@ -36,7 +43,7 @@
       align-items: center;
       gap: 2.5rem;
       list-style: none;
-      margin-left: auto;
+      // margin-left: auto;
       margin-right: 2.5rem;
     }
 
@@ -73,6 +80,7 @@
   &--hero-container {
     width: 61.3%;
     margin: 12.5rem auto;
+    margin-top: 20rem;
     display: grid;
 
     grid-template-columns: 1fr 1fr;
@@ -139,28 +147,14 @@
 }
 
 .nav-container {
-  width: 100%;
+  // width: 100% !important;
 }
 
 .sticky {
-  position: fixed;
-
-  // width: 100%;
-
   // padding: 2rem 3.5rem;
   box-shadow: 5px -5px 32px -7px rgba(0, 0, 0, 0.75);
-
-  z-index: 1000;
-
-  top: 0;
-  left: 0;
-
-  background-image: linear-gradient(
-    90deg,
-    hsl(231, 68%, 21%) 0,
-    hsl(275, 54%, 33%) 51%,
-    hsl(231, 68%, 21%)
-  );
+  transition: 0.2s;
+  background-color: #fff;
 }
 .section--hidden {
   opacity: 0;
@@ -213,15 +207,14 @@
 
     &--hero-container {
       width: 88.5%;
+      margin-top: 20rem;
       padding-inline: 1.5rem;
     }
     // &--title {
     //   font-size: 5.4rem;
     // }
 
-    &--navbar {
-      width: 86%;
-    }
+    //
 
     // &--img-con {
     //   transform: translateY(0.2rem);
@@ -260,6 +253,7 @@
 
     &--hero-container {
       width: 88.5%;
+      margin-top: 20rem;
       padding-inline: 1.5rem;
     }
     &--text {
@@ -293,14 +287,15 @@
 
     &--hero-container {
       width: 80%;
+      margin-top: 20rem;
       padding-inline: 1.5rem;
       grid-template-columns: 1fr 1fr;
       gap: 3rem;
     }
 
-    &--navbar {
-      width: 77%;
-    }
+    // &--navbar {
+    //   width: 77%;
+    // }
 
     &--img-con {
       width: 100%;
@@ -313,6 +308,10 @@
     &--text {
       font-size: 1.75rem;
       width: 100%;
+    }
+
+    &--navbar {
+      padding: 1.5rem 6rem;
     }
   }
   // .sticky {
@@ -345,10 +344,18 @@
     line-height: 1.26;
     &--hero-container {
       width: 92%;
+      margin-top: 20rem;
     }
 
+    // &--navbar {
+    //   width: 89%;
+    // }
     &--navbar {
-      width: 89%;
+      padding: 1.5rem 6rem;
+
+      &-link {
+        color: #fff !important;
+      }
     }
   }
   // .sticky {
@@ -381,10 +388,12 @@
     line-height: 1.26;
     &--hero-container {
       width: 92%;
+      margin-top: 20rem;
     }
 
     &--navbar {
-      width: 89%;
+      // width: 89%;
+      padding: 1.5rem 6rem;
 
       &-nav {
         flex-direction: column;
@@ -412,6 +421,10 @@
 
       &--brand {
         font-size: 3rem;
+      }
+
+      &-link {
+        color: #fff !important;
       }
     }
 
@@ -489,6 +502,7 @@
       width: 100%;
       padding-inline: 1.5rem;
       gap: 3.5rem;
+      margin-top: 20rem;
     }
 
     // &--text-box {
@@ -511,7 +525,7 @@
     }
 
     &--navbar {
-      width: 95%;
+      // width: 95%;
 
       &-nav {
         flex-direction: column;
@@ -541,10 +555,13 @@
         font-size: 3rem;
       }
     }
+    &-link {
+      color: #fff !important;
+    }
 
     &--hero-container {
-      margin: 8rem auto;
-      margin-top: 8rem;
+      // margin: 8rem auto;
+      // margin-top: 8rem;
       // margin-bottom: 15rem;
     }
   }
@@ -612,6 +629,7 @@
       // flex-direction: column;
       width: 100%;
       padding-inline: 1.5rem;
+      margin-top: 20rem;
       // gap: 4.5rem;
     }
 
@@ -621,7 +639,7 @@
     }
 
     &--navbar {
-      width: 95%;
+      padding: 1.5rem 1.5rem;
 
       &-nav {
         flex-direction: column;
@@ -650,6 +668,9 @@
       &--brand {
         font-size: 3rem;
       }
+      &-link {
+        color: #fff !important;
+      }
     }
 
     &--text {
@@ -657,7 +678,7 @@
     }
 
     &--hero-container {
-      margin: 8rem auto;
+      // margin: 8rem auto;
       margin-bottom: 0;
     }
 

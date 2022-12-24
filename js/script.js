@@ -55,12 +55,50 @@ const navHeight = nav.getBoundingClientRect().height;
 const brandLogo = document.querySelector(".header--navbar--brand");
 const navCon = document.querySelector(".nav-container");
 
+const headerLink = document.querySelector(".header--navbar-nav");
+
 const navConLinks = document.querySelectorAll(".header--navbar-link");
 window.addEventListener("scroll", function () {
-  if (window.scrollY >= 500) {
-    navCon.classList.add("sticky");
+  if (window.scrollY >= 100) {
+    nav.classList.add("sticky");
   } else {
-    navCon.classList.remove("sticky");
+    nav.classList.remove("sticky");
+  }
+});
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= 100) {
+    openMenu.style.color = "hsl(275, 54%, 33%)";
+  } else {
+    openMenu.style.color = "white";
+  }
+});
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= 100) {
+    brandLogo.style.color = "hsl(275, 54%, 33%)";
+  } else {
+    brandLogo.style.color = "white";
+  }
+});
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= 100) {
+    const link = headerLink;
+    const siblings = link
+      .closest(".header--navbar")
+      .querySelectorAll(".header--navbar-link");
+
+    siblings.forEach((el) => {
+      el.style.color = "hsl(275, 54%, 33%)";
+    });
+  } else {
+    const link = headerLink;
+    const siblings = link
+      .closest(".header--navbar")
+      .querySelectorAll(".header--navbar-link");
+
+    siblings.forEach((el) => {
+      el.style.color = "white";
+    });
   }
 });
 
