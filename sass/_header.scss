@@ -153,7 +153,10 @@
 .sticky {
   // padding: 2rem 3.5rem;
   box-shadow: 5px -5px 32px -7px rgba(0, 0, 0, 0.75);
-  transition: 0.2s;
+
+  transition: padding 0;
+  transition: background-color 0.2s;
+
   background-color: #fff;
 }
 .section--hidden {
