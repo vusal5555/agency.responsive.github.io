@@ -106,6 +106,14 @@
   .header--text {
     line-height: 1.55; } }
 
+@media only screen and (max-width: 1800px) {
+  .header--navbar {
+    padding: 1.5rem 35 rem; } }
+
+@media only screen and (max-width: 1700px) {
+  .header--navbar {
+    padding: 1.5rem 33rem; } }
+
 @media only screen and (max-width: 1630px) {
   .header {
     background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
@@ -121,6 +129,8 @@
       width: 88.5%;
       margin-top: 20rem;
       padding-inline: 1.5rem; }
+    .header--navbar {
+      padding: 1.5rem 11rem; }
     .header--text {
       line-height: 1.55; } }
 
@@ -141,6 +151,10 @@
       padding-inline: 1.5rem; }
     .header--text {
       line-height: 1.55; } }
+
+@media only screen and (max-width: 1400px) {
+  .header--navbar {
+    padding: 1.5rem 11rem; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
@@ -166,7 +180,7 @@
       font-size: 1.75rem;
       width: 100%; }
     .header--navbar {
-      padding: 1.5rem 6rem; } }
+      padding: 1.5rem 14rem; } }
 
 @media only screen and (max-width: 1024px) {
   .header {

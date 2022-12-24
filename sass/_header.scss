@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
 
   height: 100vh;
+
   // height: 100vh;
 
   line-height: 1.265;
@@ -183,6 +184,22 @@
   }
 }
 
+@media only screen and (max-width: 1800px) {
+  .header {
+    &--navbar {
+      padding: 1.5rem 35 rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .header {
+    &--navbar {
+      padding: 1.5rem 33rem;
+    }
+  }
+}
+
 @media only screen and (max-width: 1630px) {
   .header {
     background-image: url(../images/hero-bg-bottom.png),
@@ -219,16 +236,16 @@
 
     //
 
+    &--navbar {
+      padding: 1.5rem 11rem;
+    }
+
     // &--img-con {
     //   transform: translateY(0.2rem);
     // }
     &--text {
       line-height: 1.55;
     }
-    // .sticky {
-    //   width: 100%;
-    //   padding: 1.5rem 2rem;
-    // }
   }
 }
 
@@ -267,6 +284,14 @@
   //   width: 100%;
   //   padding: 1.5rem 2rem;
   // }
+}
+
+@media only screen and (max-width: 1400px) {
+  .header {
+    &--navbar {
+      padding: 1.5rem 11rem;
+    }
+  }
 }
 @media only screen and (max-width: 1300px) {
   .header {
@@ -314,7 +339,7 @@
     }
 
     &--navbar {
-      padding: 1.5rem 6rem;
+      padding: 1.5rem 14rem;
     }
   }
   // .sticky {
