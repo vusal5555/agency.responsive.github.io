@@ -104,11 +104,13 @@
 
 @media only screen and (max-width: 1900px) {
   .header--text {
-    line-height: 1.55; } }
+    line-height: 1.55; }
+  .header--navbar {
+    padding: 1.5rem 37rem; } }
 
 @media only screen and (max-width: 1800px) {
   .header--navbar {
-    padding: 1.5rem 33rem; } }
+    padding: 1.5rem 35rem; } }
 
 @media only screen and (max-width: 1700px) {
   .header--navbar {
@@ -184,7 +186,7 @@
 
 @media only screen and (max-width: 1200px) {
   .header--navbar {
-    padding: 1.5rem 10rem; } }
+    padding: 1.5rem 13rem; } }
 
 @media only screen and (max-width: 1100px) {
   .header--navbar {
