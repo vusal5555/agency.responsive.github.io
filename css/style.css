@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 37rem;
+    padding: 1.5rem 37.5rem;
     z-index: 10000;
     width: 100%; }
     .header--navbar-nav {
@@ -154,7 +154,7 @@
 
 @media only screen and (max-width: 1400px) {
   .header--navbar {
-    padding: 1.5rem 10rem; } }
+    padding: 1.5rem 9.5rem; } }
 
 @media only screen and (max-width: 1300px) {
   .header {
