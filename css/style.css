@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 37rem;
+    padding: 1.5rem 36.7rem;
     z-index: 10000;
     width: 100%; }
     .header--navbar-nav {
@@ -23,7 +23,7 @@
       align-items: center;
       gap: 2.5rem;
       list-style: none;
-      margin-right: 2.5rem; }
+      margin-left: auto; }
     .header--navbar-link {
       text-decoration: none;
       color: #fff;
@@ -470,9 +470,13 @@ body {
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  display: block; }
+  display: block;
+  margin-left: 2.5rem; }
   .btn-navbar:active {
     transform: translateY(4px); }
+
+.nav-extra {
+  text-decoration: none; }
 
 .btn-card {
   border: none;

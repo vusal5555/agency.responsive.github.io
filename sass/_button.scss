@@ -45,6 +45,8 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   display: block;
+  // position: absolute;
+  margin-left: 2.5rem;
 
   &:active {
     transform: translateY(4px);
@@ -53,6 +55,10 @@
   // @media only screen and (max-width: 980px) {
   //   background-image: linear-gradient(hsl(39, 100%, 52%), hsl(39, 100%, 52%));
   // }
+}
+
+.nav-extra {
+  text-decoration: none;
 }
 
 .btn-card {
