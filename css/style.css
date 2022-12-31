@@ -106,15 +106,15 @@
   .header--text {
     line-height: 1.55; }
   .header--navbar {
-    padding: 1.5rem 37rem; } }
+    padding: 1.5rem 35.7rem; } }
 
 @media only screen and (max-width: 1800px) {
   .header--navbar {
-    padding: 1.5rem 35rem; } }
+    padding: 1.5rem 34rem; } }
 
 @media only screen and (max-width: 1700px) {
   .header--navbar {
-    padding: 1.5rem 33rem; } }
+    padding: 1.5rem 32rem; } }
 
 @media only screen and (max-width: 1630px) {
   .header {
@@ -154,6 +154,10 @@
     .header--text {
       line-height: 1.55; } }
 
+@media only screen and (max-width: 1500px) {
+  .header--navbar {
+    padding: 1.5rem 9.7rem; } }
+
 @media only screen and (max-width: 1400px) {
   .header--navbar {
     padding: 1.5rem 9.7rem; } }
@@ -182,7 +186,7 @@
       font-size: 1.75rem;
       width: 100%; }
     .header--navbar {
-      padding: 1.5rem 14rem; } }
+      padding: 1.5rem 13.97rem; } }
 
 @media only screen and (max-width: 1200px) {
   .header--navbar {
@@ -214,7 +218,7 @@
       .header--navbar-link {
         color: #fff !important; } }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1020px) {
   .header {
     background-image: url(../images/hero-bg-bottom.png), url(../images/hero-bg.png), linear-gradient(90deg, #111c5a 0, #5c2782 51%, #111c5a);
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -228,7 +232,7 @@
       width: 92%;
       margin-top: 20rem; }
     .header--navbar {
-      padding: 1.5rem 5rem; }
+      padding: 1.5rem 6rem; }
       .header--navbar-nav {
         flex-direction: column;
         position: fixed;
