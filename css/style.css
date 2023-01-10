@@ -218,7 +218,8 @@
     .header--navbar {
       padding: 1.5rem 6rem; }
       .header--navbar-link {
-        color: #fff !important; } }
+        color: #fff !important;
+        font-size: 3rem; } }
 
 @media only screen and (max-width: 1020px) {
   .header {
@@ -247,14 +248,15 @@
         overflow-y: hidden;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
-        padding-top: 15rem;
+        padding-top: 25rem;
         align-items: center;
         transition: all 0.5s;
         text-transform: uppercase; }
       .header--navbar--brand {
         font-size: 3rem; }
       .header--navbar-link {
-        color: #fff !important; }
+        color: #fff !important;
+        font-size: 3rem; }
     .header--title {
       font-size: 4.78rem;
       display: block;
@@ -264,7 +266,7 @@
     .header .fa-solid.fa-xmark {
       display: block;
       color: #fff;
-      font-size: 2.5rem;
+      font-size: 4rem !important;
       margin: 1rem;
       cursor: pointer;
       position: absolute;
@@ -329,20 +331,21 @@
         overflow-y: hidden;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
-        padding-top: 15rem;
+        padding-top: 20rem;
         align-items: center;
         transition: all 0.5s;
         text-transform: uppercase; }
       .header--navbar--brand {
         font-size: 3rem; }
     .header-link {
-      color: #fff !important; }
+      color: #fff !important;
+      font-size: 2.5rem; }
   .hidden {
     top: 0; }
   .fa-solid.fa-xmark {
     display: block;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 3.5rem !important;
     margin: 1rem;
     cursor: pointer;
     position: absolute;
@@ -389,14 +392,15 @@
         overflow-y: hidden;
         background-image: linear-gradient(#1f2470, #ef1f76);
         padding: 3rem;
-        padding-top: 15rem;
+        padding-top: 20rem;
         align-items: center;
         transition: 0.25s cubic-bezier(0.51, 0.03, 0.64, 0.28);
         text-transform: uppercase; }
       .header--navbar--brand {
         font-size: 3rem; }
       .header--navbar-link {
-        color: #fff !important; }
+        color: #fff !important;
+        font-size: 2.5rem; }
     .header--text {
       width: 100%; }
     .header--hero-container {
@@ -406,7 +410,7 @@
   .fa-solid.fa-xmark {
     display: block;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 3.5rem !important;
     margin: 1rem;
     cursor: pointer;
     position: absolute;
