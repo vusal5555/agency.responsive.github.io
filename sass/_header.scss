@@ -34,7 +34,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 36.7rem;
-    // padding: 1.5rem 37rem;
+    // padding: 5% 61.3%;
+    padding: 1.5rem 36.85rem;
 
     z-index: 10000;
     width: 100%;
@@ -65,7 +66,7 @@
       width: 0;
       display: block;
       margin: 0 auto;
-      background-color: hsl(0, 0%, 90%);
+      background-color: var(--afterBack, hsl(0, 0%, 90%));
       transition: all 0.3s;
     }
     &-item:hover::after {
@@ -181,7 +182,8 @@
     }
 
     &--navbar {
-      padding: 1.5rem 37rem;
+      padding: 1.5rem 35.7rem;
+      // padding: 1.5rem 36rem;
     }
   }
 }
@@ -189,7 +191,8 @@
 @media only screen and (max-width: 1800px) {
   .header {
     &--navbar {
-      padding: 1.5rem 35rem;
+      // padding: 1.5rem 35.5rem;
+      padding: 1.5rem 34rem;
     }
   }
 }
@@ -197,7 +200,7 @@
 @media only screen and (max-width: 1700px) {
   .header {
     &--navbar {
-      padding: 1.5rem 33rem;
+      padding: 1.5rem 32rem;
     }
   }
 }
@@ -239,7 +242,7 @@
     //
 
     &--navbar {
-      padding: 1.5rem 11rem;
+      padding: 1.5rem 10.4rem;
     }
 
     // &--img-con {
@@ -288,10 +291,17 @@
   // }
 }
 
+@media only screen and (max-width: 1500px) {
+  .header {
+    &--navbar {
+      padding: 1.5rem 10rem;
+    }
+  }
+}
 @media only screen and (max-width: 1400px) {
   .header {
     &--navbar {
-      padding: 1.5rem 9.7rem;
+      padding: 1.5rem 9.4rem;
     }
   }
 }
@@ -341,7 +351,11 @@
     }
 
     &--navbar {
+      // padding: 1.5rem 13.97rem;
       padding: 1.5rem 14rem;
+      padding: 1.5rem 14.5rem;
+      // padding: 1.5rem 14.87rem;
+      // padding: 1.5rem 13.4rem;
     }
   }
   // .sticky {
@@ -396,7 +410,7 @@
     }
 
     &--navbar {
-      padding: 1.5rem 5rem;
+      padding: 1.5rem 6rem;
 
       &-link {
         color: #fff !important;
@@ -405,7 +419,7 @@
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1020px) {
   .header {
     background-image: url(../images/hero-bg-bottom.png),
       url(../images/hero-bg.png),
@@ -429,7 +443,7 @@
     }
 
     &--navbar {
-      padding: 1.5rem 5rem;
+      padding: 1.5rem 5.5rem;
 
       &-nav {
         flex-direction: column;
@@ -496,6 +510,24 @@
 
   .btn-navbar {
     display: none !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    &--navbar {
+      padding: 1.5rem 5.35rem;
+      padding: 1.5rem 5.35rem;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .header {
+    &--navbar {
+      padding: 1.5rem 5.35rem;
+      padding: 1.5rem 5rem;
+      // padding: 1.5rem 5rem;
+    }
   }
 }
 

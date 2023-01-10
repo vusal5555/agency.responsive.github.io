@@ -102,6 +102,14 @@ window.addEventListener("scroll", function () {
   }
 });
 
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= 100) {
+    headerLink.style.setProperty("--afterBack", "hsl(335, 87%, 51%)");
+  } else {
+    headerLink.style.setProperty("--afterBack", "hsl(0, 0%, 90%)");
+  }
+});
+
 // brandLogo.addEventListener("click", function (e) {
 //   e.preventDefault();
 // });
